@@ -1,0 +1,804 @@
+#+hugo_base_dir: ../
+#+seq_todo: TODO DRAFT DONE
+#+options: creator:t
+
+* Teaching
+  :PROPERTIES:
+  :export_hugo_section: home
+  :export_hugo_weight: 30
+  :export_file_name: teaching
+  :END:
+
+** 2019-2020 Academic year
+
+**** Link: [[https://matricula.udc.es/System/CambiaIdioma.asp?lIdLang=9&strUrlBack=%2E%2E%2FPODAberto%2Fprofesor%2Easp%3FNum%5FOrganizacion%5FPuesto%3D2581][Official *POD*: My file at UDC]]
+
+*** Degree: Bachelor of Computer Science / Grao en Enxeñería Informática
+**** Link: [[http://estudos.udc.es/gl/study/start/614G01V01][degree's official site]]
+**** Courses:
+ + /Fundamentals of Computers / Fundamentos dos Computadores (FC)/ \\
+   ->[[http://estudos.udc.es/en/subject/614G01V01/614G01007][ File & teaching guide]]
+ + /Computer Structure / Estrutura de Computadores (EC)/ \\
+   -> [[http://estudos.udc.es/gl/subject/614G01V01/614G01012/2018][File & teaching guide]]
+
+*** Degree: Master of Computer Science / Mestrado en Enxeñería Informática (MUEI)
+**** Link: [[http://estudos.udc.es/gl/study/start/4502V01][degree's official site]]
+**** Course:
+  + /Interaction, Graphics and Multimedia / Interacción, Gráficos e Multimedia (IGM)/ \\
+    -> [[http://estudos.udc.es/en/subject/4502V01/4502008][File & teaching guide]]
+
+*** Degree: Master in HPC (High Performance Computing) / Mestrado en Computación de Altas Prestacións
+**** Link: [[http://estudos.udc.es/en/study/start/4473V02][degree's official site]]
+**** Course:
+  + /HPC Tools / Ferramentas HPC/ \\
+    -> [[http://estudos.udc.es/en/subject/4473V02/4473105/2018][File]] -> [[https://guiadocente.udc.es/guia_docent/index.php?centre=614&ensenyament=614473&assignatura=614473105&any_academic=2018_19&idioma_assig=eng][Teaching guide]]
+
+*** Degree: Master in Design, Development and Marketing of Videogames / Mestrado en Deseño, Desenvolvemento e Comercialización de Videoxogos
+**** Links: [[http://estudos.udc.es/en/study/detail/4529v01][degree's official site (udc)]] [[http://mastervideojuegos.udc.gal][degree's website]]
+**** Course:
+  + /Video Game Performance and Optimization / Rendemento e optimización de videoxogos/ \\
+    -> [[http://estudos.udc.es/gl/subject/4529V01/4529018][File & teaching guide]]
+* PFCs
+** Archive
+  :PROPERTIES:
+  :export_hugo_section: project
+  :export_hugo_weight: 30
+  :export_file_name: archive
+  :export_hugo_custom_front_matter+: :summary "Past supervised projects."
+  :export_date: <2019-01-29 Tue 13:24>
+  :END:
+
+  Past EOG Works and Final Master Thesis supervised /(en)/ \\
+  Histórico de Traballos Fin de Grao e de Mestrado dirixidos /(gl)/
+
+*** 2018
+**** Design and implementation of a videogame in the field of Human Rights based on free software tools
+*Deseño e implementación dun videoxogo no ámbito dos dereitos humanos baseado en ferramentas libres*\\
+*Diseño e implementación de un videojuego en el ámbito de los derechos humanos basado en herramientas libres*\\
+co-advised with Miguel Rodríguez-Segade Alonso and Sergio Fernández Alonso (ESF, Enseñería sen Fronteiras)\\
+-> [[file:misc/BarbeiraHayes_Daniel_TFM_2018.pdf][pdf (gl)]]\\
+-> https://gitlab.com/daniel.barbeira/blockrain.js
+
+**** In-Transit Molecular Dynamics Analysis with Apache Flink      :Grenoble:
+Master of Science in Informatics, specialization Parallel, Distributed and Embedded Systems. Université Grenoble Alpes.\\
+co-advised with /Bruno Raffin/ (Inria Rhône-Alpes, Datamove team)\\
+
+**** Interactive voxel-based rendering engine: study and development    :GEI:
+*Estudo e desenvolvemento dun motor gráfico interactivo baseado en voxels* /(gl)/\\
+*Estudio y desarrollo de un motor gráfico interactivo basado en voxels* /(es)/\\
+co-advised with /Diego Andrade Canosa/ (UDC, Dpt. Enxeñería de Computadores)\\
+-> [[http://kmelot.biblioteca.udc.es/record=b1662870~S1*gag][http://kmelot.biblioteca.udc.es/record=b1662870~S1*gag]]\\
+-> [[file:misc/4050_CastroCabado_Victor_TFG_2018.pdf][pdf (es)]]
+
+*** 2016
+**** Automatic generation of animation sequences from video              :EI:
+*Xeración automática de secuencias en animación a partir de vídeo* /(gl)/\\
+*Generación automática de secuencias en animación a partir de vídeo* /(es)/\\
+-> http://kmelot.biblioteca.udc.es/record=b1545896~S1*gag\\
+-> https://github.com/diego-plan9/rotoscopia
+
+**** Development of a web application for historical investigation and dissemination :GEI:
+*Desenvolvemento dunha aplicación web para a investigación e divulgación histórica* /(gl)/\\
+*Desarrollo de una aplicación web para la investigación y divultación histórica* /(es)/\\
+-> http://kmelot.biblioteca.udc.es/record=b1541529~S1*gag
+
+**** Java application for face recognition using OpenCV                  :EI:
+*Aplicación de recoñecemento facial en Java mediante OpenCV* /(gl)/\\
+*Aplicación de reconocimiento facial en Java mediante OpenCV* /(es)/\\
+-> http://kmelot.biblioteca.udc.es/record=b1537338~S1*gag
+
+**** Planar surfaces recognition using genetic algorithms in CUDA      :ETIS:
+*Recoñecemento de superficies planas con algoritmos xenéticos en Cuda* /(gl)/\\
+*Reconocimiento de superficies planas con algoritmos genéticos en CUDA* /(es)/\\
+-> http://kmelot.biblioteca.udc.es/record=b1544003~S1*gag
+
+**** Deployment and integration of a collaborative email platform with a storage system in a private cloud :ETIX:
+*Implantación e integración dunha plataforma de correo colaborativo cun sistema de almacenamento nunha nube privada* /(gl)/\\
+*Implantación e integración de una plataforma de correo colaborativo con un sistema de almacenamiento en una nube privada* /(es)/\\
+-> http://kmelot.biblioteca.udc.es/record=b1543792~S1*gag
+
+**** Web application to manage workflows within a company              :ETIX:
+*Aplicación web para a xestión do fluxo de traballo dentro dunha empresa* /(gl)/\\
+*Aplicación web para la gestión del flujo de trabajo dentro de una empresa* /(es)/
+
+**** Application for managing a country store                          :ETIX:
+*Desenvolvemento dunha aplicación para a xestión dunha tenda de ultramarinos no rural* /(gl)/\\
+*Desarrollo de una aplicación para la gestión de una tienda de ultramarinos rural* /(es)/\\
+-> http://kmelot.biblioteca.udc.es/record=b1543790~S1*gag
+
+
+
+*** 2015
+**** Design and implementation of a HPC solution for Stereo Matching  :MICAP:
+*Deseño e implementación dunha solución HPC para Stereo Matching* /(gl)/\\
+*Diseño e implementación de una solución HPC para Stero Matching* /(es)/\\
+co-advised with /Juan Ramón Rabuñal Dopico/ (UDC, Dpt. Computación)\\
+-> http://gac.udc.es/~emilioj/advising/micap_omaralvarez_2015.pdf\\
+-> https://github.com/omaralvarez/GCVL
+
+**** Design and implementation of the deployment in the cloud of a highly-­scalable platform for multimedia metadata
+*Deseño e implementación do despregamento na nube dunha plataforma altamente escalable de metadatos multimedia* /(gl)/\\
+*Diseño e implementación del despliegue en la nube de una plataforma altamente escalable de metadatos multimedia* /(es)/\\
+co-advised with /Laura Milagros Castro Souto/ (UDC, Dpt. Computación)\\
+-> http://gac.udc.es/~emilioj/advising/micap_juanfont_2015.pdf
+
+**** Implementation of a stock management system for an e-commerce platform :GEI:
+*Implementación dun sistema de xestión de stock para unha plataforma de comercio electrónico* /(gl)/\\
+*Implementación de un sistema de gestión de stock para una plataforma de comercio electrónico* /(es)/
+-> http://kmelot.biblioteca.udc.es/record=b1531121~S1*gag
+
+**** State-of-the-art point cloud rendering with OpenGL                :ETIS:
+*Visualización avanzada de nubes de puntos con OpenGL* /(gl/es)/\\
+co-advised with /Luis Omar Álvarez Mures/ (UDC, PhD Student at Dpt. Enxeñería de Computadores)\\
+-> http://kmelot.biblioteca.udc.es/record=b1535210~S1*gag\\
+-> https://github.com/eipporko/Cube
+
+*** 2014
+**** Implementation of ITILv3 in the IT services of a local government  :GEI:
+*Implantación de ITILv3 nos servizos TI dunha administración local* /(gl)/\\
+*Implantación de ITILv3 en los servicios TI de una administración local* /(gl)/\\
+co-advised with /Ramón Álvarez Veiras/ (Concello da Coruña, Dpt. Informática)
+
+**** Real-time management tool massive 3D point clouds                  :GEI:
+*Ferramenta para o traballo interactivo con grandes nubes de puntos 3D* /(gl)/\\
+*Herramienta para el trabajo interactivo con grandes nubes de puntos 3D* /(es)/\\
+co-advised with /Alberto Jaspe Villanueva/ (Italy, CRS4, Visual Computing Group)\\
+-> http://kmelot.biblioteca.udc.es/record=b1521392~S1*gag
+
+*** 2013
+**** Real-time multiresolution 3D visualization system for huge LIDAR datasets :GEI:
+*Sistema multirresolución de visualización 3D en tempo real para grandes bases de datos LIDAR* /(gl)/\\
+*Sistema multirresolución de visualización 3D en tiempo real para grandes bases de datos LIDAR* /(es)/\\
+-> http://kmelot.biblioteca.udc.es/record=b1515710~S1*gag
+
+**** Conjugate gradient for sparse matrices on GPU using CUDA            :EI:
+*Gradiente conxugado para matrices dispersas sobre GPUs usando CUDA* /(gl)/\\
+*Gradiente conjugado para matrices dispersas sobre GPUs usando CUDA* /(es)/\\
+co-advised with /Margarita Amor López/ (UDC, Dpt. Enxeñería de Computadores)\\
+-> http://kmelot.biblioteca.udc.es/record=b1506243~S1*gag
+
+**** Client-server point-based rendering WebGL                           :EI:
+*Sistema cliente-servidor para a visualización de nubes de puntos con WebGL* /(gl)/\\
+*Sistema cliente-servidor para la visualización de nubes de puntos con WebGL* /(es)/\\
+co-advised with /Alberto Jaspe Villanueva/ (Italy, CRS4, Visual Computing Group)\\
+-> http://kmelot.biblioteca.udc.es/record=b1506989~S1*gag
+
+**** Software for managing the budget, planning and cost control in a construction company :GEI:
+*Aplicación para a xestión de orzamentos, planificación e control de custos de obra dunha empresa de construción* /(gl)/\\
+*Aplicación para la gestión de presuspuestos, planificación y control de costes de obra de una empresa de construcción* /(es)/\\
+-> http://kmelot.biblioteca.udc.es/record=b1516169~S1*gag
+
+*** 2012
+**** Point Cloud Manager: A multi-resolution framework for managing huge 3D point cloud datasets :MICAP:
+*Point Cloud Manager: Sistema Multirresolución para o tratamento de grandes datasets de nubes de puntos 3D* /(gl)/\\
+*Point Cloud Manager: Sistema Multirresolución para el tratamiento de grandes datasets de nubes de puntos 3D* /(es)/\\
+co-advised with /Javier Taibo Pena/ (UDC, Dpt. Enxeñería Civil)\\
+-> http://gac.udc.es/~emilioj/advising/micap_albertojaspe_2012.pdf
+
+**** Global illumination for point-based rendering                     :ETIS:
+*Iluminación global para render baseado en puntos* /(gl)/\\
+*Iluminación global para render basado en puntos* /(es)/\\
+co-advised with /Alberto Jaspe Villanueva/ (Italy, CRS4, Visual Computing Group)\\
+-> http://kmelot.biblioteca.udc.es/record=b1488553~S1*gag
+
+**** Building a robot to autonomously traverse the whole area inside a perimeter :ETIS:
+*Construción dun robot que de xeito autónomo recorra toda a área delimitada por un perímetro* /(gl)/\\
+*Construcción de un robot que de forma autónoma recorra toda el área delimitada por un perímetro* /(es)/\\
+-> http://kmelot.biblioteca.udc.es/record=b1490803~S1*gag
+
+**** Performance analysis of CUDA computation                          :ETIS:
+*Análisis de rendemento da computación con CUDA* /(gl)/\\
+*Análisis de rendimiento de la computación con CUDA* /(es)/\\
+-> http://kmelot.biblioteca.udc.es/record=b1490805~S1*gag
+
+**** A tool for the creation and management of basketball moves and exercises :ETIS:
+*Ferramenta para a creación e xestión de xogadas e exercicios de baloncesto /(gl)/*\\
+*Herramienta para la creación y gestión de jugadas y ejercicios de baloncesto /(es)/*\\
+-> http://kmelot.biblioteca.udc.es/record=b1490808~S1*gag
+
+*** 2011
+**** Performance analysis of CUDA 4.0 for multiple GPUs                  :EI:
+*Análise de rendemento multiGPU en CUDA 4.0* /(gl)/\\
+*Análisis de rendimiento multiGPU en CUDA 4.0* /(es)/\\
+co-advised with /Margarita Amor López/ (UDC, Dpt. Enxeñería de Computadores)\\
+-> http://kmelot.biblioteca.udc.es/record=b1473774~S1*gag
+
+**** Design of a VPN-based deployment architecture with centralized configuration upon Pulsarent's requirements :ETIX:
+*Deseño dunha arquitectura de despregue baseada en VPN e de configuración centralizada supeditada aos requisitos do produto de cartelería dixital PulsarRent* /(gl)/\\
+*Diseño de una arquitectura de despliegue basada en VPN y de configuración centralizada supeditada a los requisitos del producto de cartelería digital PulsarRent* /(es)/\\
+-> http://kmelot.biblioteca.udc.es/record=b1469501~S1*gag
+
+*** 2010
+**** Parallel computation in a CPUs-GPUs heterogenerous environment    :ETIS:
+*Computación paralela nunha contorna heteroxénea CPUs-GPUs* /(gl)/\\
+*Computación paralela en un entorno heterogéneo CPUs-GPUs* /(es)/\\
+co-advised with /Bruno Raffin/ (Inria Rhône-Alpes, Datamove team)\\
+-> http://kmelot.biblioteca.udc.es/record=b1460801~S1*gag
+** Work in Progress: 201809                      :Billing:Invoicing:Java__EE:
+  :PROPERTIES:
+  :export_hugo_section: project
+  :export_hugo_weight: 30
+  :export_file_name: 2018sep_1
+  :export_hugo_custom_front_matter+: :summary "Invoicing sofware for service providers based on a Java EE multilayer architecture."
+  :export_date: <2018-09-05 Wed 14:43>
+  :END:
+
+*** Invoicing sofware for service providers based on a Java EE multilayer architecture
+
+    (gl) Aplicación de facturación con arquitectura Java EE multicapa para empresas provedoras de servizos \\
+    (es) Aplicación de facturación con arquitectura Java EE multicapa para empresas proveedoras de servicios
+
+**** Student
+     Catarina García Cal
+
+     + Final year project, [[http://estudos.udc.es/en/study/detail/614g01v01][BSc in Computer Science]], UDC\\
+       (TFG [[http://estudos.udc.es/gl/study/detail/614g01v01][Grao en Enxeñería Informática]], UDC)
+
+**** Supervision
+     Emilio José Padrón González (UDC)
+
+**** Descrición
+
+  Se propone el desarrollo e implementación de una aplicación de
+  facturación basado en Software Libre, con arquitectura Java EE
+  multicapa, que pueda ser utilizado por cualquier proveedor de
+  servicios con una cartera de clientes a los que se les facturen
+  cuotas (importes fijos a facturar por la prestación del servicio) y
+  consumos (importe derivado del uso de un determinado servicio) de
+  forma periódica, pudiendo definirse distintos ciclos de facturación
+  atendiendo a las necesidades del negocio.
+
+  El sistema a desarrollar interactuará con otros sistemas externos,
+  como puede ser el el gestor de clientes o el sistema de tarificación
+  de consumos, a fin de mantener coherencia en los datos manejados por
+  las distintas entidades del negocio. Entre las características que
+  ofrecerá el sistema de facturación, además de la citada facturación,
+  se encuentra la posibilidad de definir promociones, bien sean
+  descuentos sobre el total de la factura o sobre un concepto o
+  conjunto de conceptos en particular (cuotas o consumos),
+  aplicar/eliminar cuotas, consumos y/o promociones, aplicar
+  rectificaciones sobre excesos o defectos de facturación de ciclos
+  pasados, consulta de datos de facturas para un determinado cliente o
+  la extracción de informes a través de consultas personalizadas.
+
+**** Obxectivos concretos
+
+  El objetivo del TFG es realizar el análisis, diseño e implementación
+  de una aplicación de facturación basado en Software Libre, con
+  arquitectura Java EE multicapa, que genere las facturas
+  correspondientes a los clientes de una empresa atendiendo a los
+  elementos facturables que tengan asociados, tipo impositivo
+  aplicable y a las características definidas para la facturación de
+  los mismos.
+
+  Dicho sistema permitirá:
+  - Definir distintos ciclos de facturación a aplicar según período de
+    facturación, tipología de clientes sobre los que aplicar,
+    recurrencia de ejecución...
+  - Comunicación con plataformas externas (interfaz de contratación,
+    sistema de tarificación, plataformas de impresión... ) tanto para
+    recabar información como para el mantenimiento congruente de
+    datos.
+  - Posibilidad de modificación de datos (altas/bajas/modificaciones)
+    desde el propio facturador, así como la definición de
+    cuotas/promociones atendiendo a conceptos como recurrencia,
+    importe a facturar/descontar, período de vigencia, etc.
+  - Consultas de datos facturados/pendientes de facturar para un
+    determinado cliente.
+  - Posibilidad de extracción de informes para usuarios a través de
+    consultas personalizadas.
+
+**** Metodoloxía a seguir
+
+  Se utilizará una metodología basada en técnicas de desarrollo
+  iterativo o incremental
+
+**** Fases a desenvolver
+
+  Análisis de requisitos: identificación de las necesidades a cubrir
+  por el sistema a desarrollar.
+
+  Diseño: desarrollo de las especificaciones para el producto a crear.
+
+  Desarrollo: codificación del software a desarrollar.
+
+  Pruebas: realización de pruebas para validar que se cumplen los
+  requisitos especificados.
+
+**** Materiais e/ou medios necesarios
+
+  - JSE JDK y JEE SDK
+  - Entorno de desarrollo integrado JEE (IDE) open source
+  - Base de datos relacional open source
+  - Herramientas de modelado open source
+  - Elementos necesarios para el desarrollo de web services:
+    frameworks, contenedor web, etc.
+
+** Work in Progress: 20190129 :Data__Analytics:High__Performance__Data__Analytics:Numerical__Simulation:Scientific__Data:Flink:
+  :PROPERTIES:
+  :export_hugo_section: project
+  :export_hugo_weight: 30
+  :export_file_name: 2019jan_1
+  :export_hugo_custom_front_matter+: :summary "In Situ/In Transit Data Analytics for Scientic Numerical Simulations with Apache Flink."
+  :export_date: <2019-01-29 Tue 14:43>
+  :END:
+
+*** In Situ/In Transit Data Analytics for Scientic Numerical Simulations with Apache Flink
+
+    (gl) Análise de datos en liña para simulacións científicas con Apache Flink \\
+    (es) Análisis de datos en línea para simulaciones científicas con Apache Flink
+
+**** Student
+     Vo Thi Quynh Yen
+
+     + Final year project, [[http://www.masterhpc.es][MSc in HPC]], UDC-USC-CESGA\\
+       (TFM [[http://www.masterhpc.es][Mestrado en Computación de Altas Prestacións]], UDC-USC-CESGA)
+
+**** Supervision
+     [[https://team.inria.fr/datamove/team-members/bruno-raffin][Bruno Raffin]] (Inria Rhône-Alpes, Univ. Grenoble Alpes)\\
+     Emilio José Padrón González (UDC)
+
+**** Brief description
+
+  Large-scale simulations are producing an ever-growing amount of data
+  that is becoming prohibitively costly, in terms of time and energy,
+  to save to disks, and next to retrieve and process during the
+  post-hoc data analysis phase. To circumvent this bottleneck, in-situ
+  analytics [1] proposes to start processing data online, as soon as
+  made available by the simulation in the memories of the compute
+  nodes (or using other nodes in the same cluster, known as in-transit
+  analysis). The benefits are:
+  + Raw data produced by the simulation can start to be reduced before
+    moving out of the compute nodes, saving on data movements and on
+    the amount of data to store to disk.
+  + Part of data analysis can be performed on the same supercomputer
+    as the one booked for the simulation. The process can be massively
+    parallelized, reading data from memory and not from disk, reducing
+    the time for performing these tasks.
+
+  This integration of data analytics with large-scale simulations
+  represents a new kind of workflow. Scientists need to rethink the
+  way to use the available data movement and storage budgets and the
+  way to take advantage of the compute resources for advanced data
+  processing. So far, only a few framework prototypes have been
+  developed to investigate some key concepts, with experiments with
+  simple analysis scenarios.
+
+  The goal of this project proposal is to investigate and develop
+  algorithms to enable advanced in-situ/in-transit processing of
+  scientific data from numerical simulations with the 'Big Data'
+  framework Apache Flink. Map/Reduce solutions where first targeting
+  batch data processing. But needs for processing continuou streams of
+  data like tweets led to a new breed of tools like Flink [2] able to
+  connect to stream sources and trigger on-line analysis every time a
+  user defined window of events being filled. These stream processing
+  approaches have only recently been investigated for analysing
+  results from large scale parallel simulations [3].
+
+  But in-situ processing can be seen as special case of stream
+  processing where the data are produced not by a web server, but by a
+  large scale parallel simulation. Expected benefits include a user
+  interface that does not require extensive parallel expertise to
+  develop analysis kernels, kernels that can be used for both in-situ
+  an post-hoc analysis, interoperability with advanced massive
+  key/value stores such as Cassandra, out-of-the-box support for fault
+  tolerance or multi-tenant analysis execution.
+
+[1] Lessons Learned from Building In Situ Coupling Frameworks.\\
+    Matthieu Dorier, Matthieu Dreher, Tom Peterka, Gabriel Antoniu, Bruno Raffin, Justin M. Wozniak.\\
+    ISAV 2015 – First Workshop on In Situ Infrastructures for Enabling Extreme-Scale Analysis and Visualization (held in conjunction with SC15),
+    Nov 2015, Austin, United States.\\
+    https://hal.inria.fr/hal-01224846\\
+[2] Apache Flink: Scalable Stream and Batch Data Processing.\\
+    https://flink.apache.org\\
+[3] In-Transit Molecular Dynamics Analysis with Apache Flink.\\
+    Henrique C. Zanuz, Bruno Raffin, Omar A. Mures, Emilio J. Padrón.\\
+    ISAV 2018 – Fourth Workshop on In Situ Infrastructures for Enabling Extreme-Scale Analysis and Visualization (held in conjunction with SC18),
+    Nov 2018, Dallas, United States.\\
+    https://hal.inria.fr/hal-01889939
+
+**** Specific objectives
+
+  - The main objective of this project is to develop analysis kernels
+    for the online processing of scientic data from large-scale
+    numerical simulations with Flink.
+
+  - These kernels will operate within a current work-in-progress HPC
+    infrastructure for in-transit analysis of scientific data based on
+    Flink.
+
+  - The specific applicative domain(s) will be determined during the
+    development of the project, but we will probably target (at least)
+    Molecular Dynamics simulations.
+
+**** Methodology
+
+  An Agile development method will guide the project, with relatively short
+  sprints to build the different analysis kernels, after a preliminary work
+  of study and documentation.
+
+**** Development steps
+
+  - Analysis of requirements and project scheduling, according to student
+    disponibility.
+
+  - Study and documentation.
+    + The Map/Reduce paradigm and the framework Apache Flink.
+    + Molecular Dynamics simulations (and other numerical simulations
+      we can target to write online analysis kernels).
+
+  - Incremental, iterative work sequences (sprints) to develop
+    analysis kernels using Flink and integrate them in the existing
+    work-in-progress HPC infrastructure for in-transit analysis of
+    scientific data based on Apache Flink.
+
+**** Material
+
+  - Personal computer with internet access.
+
+  - Access to HPC resources will be provided to the student.
+
+** Open Proposal: 20190218 :Computer__Graphics:Point_based__Rendering:Interactive__Rendering:Deep__Learning:GPU:
+  :PROPERTIES:
+  :export_hugo_section: project
+  :export_hugo_weight: 30
+  :export_file_name: 2019feb_1
+  :export_hugo_custom_front_matter+: :summary "Deep Learning Approach for Point-based Rendering."
+  :export_date: <2019-02-18 Mon 14:00>
+  :END:
+
+*** Deep Learning Approach for Point-based Rendering
+
+    (gl) Unha aproximación /Deep Learning/ para render de nubes de puntos \\
+    (es) Una aproximación /Deep Learning/ para render de nubes de puntos
+
+**** Supervision
+     [[https://es.linkedin.com/in/luis-omar-alvarez-mures-4a133a59][Luis Omar Álvarez Mures]] (Cinfo, UDC)\\
+     [[http://pdi.udc.es/en/File/Pdi/M459E][Francisco Javier Taibo Pena]] (UDC)\\
+     Emilio José Padrón González (UDC)
+
+**** Brief description
+
+  A point cloud is a set of data points in space. Point clouds are
+  generally produced by 3D scanners, which measure a large number of
+  points on the external surfaces of objects around them. As the
+  output of 3D scanning processes, point clouds are used for many
+  purposes, including to create 3D CAD models for manufactured parts,
+  for metrology and quality inspection, and for a multitude of
+  visualization, animation, rendering and mass customization
+  applications [1].
+
+  In order to visualize this massive amounts of data one needs to
+  leverage Point-Based Rendering (PBR) techniques [2]. Rendering is
+  the process of generating an image from a model by means of a
+  software program. The model is a description of three dimensional
+  objects in a strictly defined data structure. It contains geometry,
+  viewpoint, texture and lighting information. Rendering is one of the
+  major field of 3D computer graphics.
+
+  Using points as the rendering primitive, output images are
+  constructed from a cloud of points and this is known as Point-Based
+  Rendering (PBR). Comparing polygon meshes with points is analogous
+  to comparing vector graphics with pixel graphics. Points in 3D are
+  analogous to pixels in 2D, replacing textured triangles or higher
+  order surfaces by zero-dimensional elements.
+
+  Since points are adimensional, they need to be used to calculate
+  normals and use them to provide the visual representation with a
+  surface, which is then called Splat. The process of estimating
+  normals is non-trivial. Point sets are usually quite noisy and have
+  no more information than an (x,y,z) point position.
+
+  Deep learning [3] architectures such as deep neural networks, deep
+  belief networks and recurrent neural networks have been applied to
+  fields including computer vision, speech recognition, natural
+  language processing, audio recognition, social network filtering,
+  machine translation, bioinformatics, drug design, medical image
+  analysis, material inspection and board game programs, where they
+  have produced results comparable to and in some cases superior to
+  human experts.
+
+  Deep learning models are vaguely inspired by information processing
+  and communication patterns in biological nervous systems yet have
+  various differences from the structural and functional properties of
+  biological brains (especially human brains), which make them
+  incompatible with neuroscience evidences.
+
+  The goal of this project will be the implementation of
+  state-of-the-art PBR techniques and normal estimation
+  algorithms. Deep Learning techniques will then be tested out to try
+  to improve on these classical approaches. In order to achieve these
+  results, OpenGL will be used to render said primitives in
+  real-time. On the Deep Learning side, TensorFlow will be used since
+  it is the defacto standard for Machine Learning and Deep Learning
+  models.
+
+[1] A Overview of Point-based Rendering Techniques.\\
+    Mandakini Kaushik, Kapil Kumar Nagwanshi, Lokesh Kumar Sharma.\\
+    International Journal of Computer Trends and Technology (IJCTT),\\
+    V3(1):19-24. 2012. ISSN 2231-2803.\\
+    http://www.ijcttjournal.org.\\
+
+[2] Point-Based Graphics.\\
+    Markus Gross, Hanspeter Pfister.\\
+    Morgan Kaufmann. 2007.\\
+    ISBN: 0123706041 9780080548821\\
+
+[3] Deep Learning in Neural Networks: An Overview\\
+    Juergen Schmidhuber.\\
+    Neural Networks, Vol 61, pp 85-117, Jan 2015\\
+    DOI: [[https://doi.org/10.1016/j.neunet.2014.09.003][10.1016/j.neunet.2014.09.003]]
+
+**** Specific objectives
+
+  - The main objective of this project is to develop PBR and normal
+    estimation techniques with OpenGL and TensorFlow.
+
+  - These techniques will explore new innovative Deep Learning
+    methods.
+
+  - The specific application domain(s) will be 3D modeling, civil
+    engineering, architecture, etc.
+
+**** Methodology
+
+  An Agile development method will guide the project, with relatively
+  short sprints to build the different tasks, after a preliminary work
+  of study and documentation.
+
+**** Development steps
+
+  - Analysis of requirements and project scheduling, according to student
+    disponibility.
+
+  - Study and documentation.
+    + PBR techniques and normal estimation.
+    + C++, OpenGL and TensorFlow.
+
+  - Incremental, iterative work sequences (sprints) to develop
+    classical PBR and normal estimation techniques.
+
+  - Incremental, iterative work sequences (sprints) to develop
+    Deep Learning approach for normal estimation.
+
+**** Material
+
+  - Personal computer with GPU and internet access.
+
+** Open Proposal: 20190219 :Computer__Graphics:Game__Engine:Deep__Learning:Reinforcement__Learning:
+  :PROPERTIES:
+  :export_hugo_section: project
+  :export_hugo_weight: 30
+  :export_file_name: 2019feb_2
+  :export_hugo_custom_front_matter+: :summary "Implementation of an Automatic Camera Operator using Deep Reinforcement Learning."
+  :export_date: <2019-02-18 Mon 19:10>
+  :END:
+
+*** Implementation of an Automatic Camera Operator using Deep Reinforcement Learning
+
+    (gl) Implementación dun operador de cámara automático usando /Deep Reinforcement Learning/ \\
+    (es) Implementación de un operador de cámara automático usando /Deep Reinforcement Learning/
+
+**** Supervision
+     [[https://es.linkedin.com/in/luis-omar-alvarez-mures-4a133a59][Luis Omar Álvarez Mures]] (Cinfo, UDC)\\
+     [[http://pdi.udc.es/en/File/Pdi/M459E][Francisco Javier Taibo Pena]] (UDC)\\
+     Emilio José Padrón González (UDC)
+
+**** Brief description
+
+  Reinforcement learning (RL) is an area of machine learning concerned
+  with how software agents ought to take actions in an environment so
+  as to maximize some notion of cumulative reward. The problem, due to
+  its generality, is studied in many other disciplines, such as game
+  theory, control theory, operations research, information theory,
+  simulation-based optimization, multi-agent systems, swarm
+  intelligence, statistics and genetic algorithms. In the operations
+  research and control literature, reinforcement learning is called
+  approximate dynamic programming, or neuro-dynamic programming [1]
+  [2].
+
+  The problems of interest in reinforcement learning have also been
+  studied in the theory of optimal control, which is concerned mostly
+  with the existence and characterization of optimal solutions, and
+  algorithms for their exact computation, and less with learning or
+  approximation, particularly in the absence of a mathematical model
+  of the environment. Reinforcement algorithms that incorporate deep
+  learning can beat world champions at the game of Go as well as human
+  experts playing numerous Atari video games. Although that may sound
+  trivial, it’s a vast improvement over their previous
+  accomplishments, and the state of the art is progressing rapidly.
+
+  A game engine is a software-development environment designed for
+  people to build video games. Developers use game engines to
+  construct games for consoles, mobile devices, and personal
+  computers. The core functionality typically provided by a game
+  engine includes a rendering engine ("renderer") for 2D or 3D
+  graphics, a physics engine or collision detection (and collision
+  response), sound, scripting, animation, artificial intelligence,
+  networking, streaming, memory management, threading, localization
+  support, scene graph, and may include video support for
+  cinematics. Implementers often economize on the process of game
+  development by reusing/adapting, in large part, the same game engine
+  to produce different games [3] or to aid in porting games to
+  multiple platforms. Since agents need an accurate virtual
+  representation of the task at hand, 3D engines come in handy to
+  create computational environments in which we can train them in
+  parallel. This makes exhausting our computational resources possible
+  to accelerate the aforementioned training.
+
+  In this project, we will leverage Deep Reinforcement Learning and
+  game engines to model a typical sports scene and teach an agent to
+  capture the action on camera. First, a scene which resembles a
+  sports match will be created using the chosen game engine. Next, we
+  will test out different Deep Reinforcement Learning algorithms
+  (Discrete-Action DQN, Parametric-Action DQN, Double DQN, Dueling
+  DQN, Dueling Double DQN, DDPG (DDPG), Soft Actor-Critic (SAC)) to
+  see which one fits this problem best.
+
+[1] Reinforcement learning and markov decision processes.\\
+    Martijn van Otterlo, Marco Wiering.\\
+    In: Wiering M., van Otterlo M. (eds) Reinforcement Learning. Adaptation, Learning, and Optimization,\\
+    vol 12. Springer, Berlin, Heidelberg. 2012.\\
+    DOI: [[https://doi.org/10.1007/978-3-642-27645-3_1][10.1007/978-3-642-27645-3_1]]\\
+
+[2] Reinforcement Learning: A Survey.\\
+    Leslie P. Kaelbling, Michael L. Littman, Andrew W. Moore.\\
+    Journal of Artificial Intelligence Research 4, pp. 237-285. 1996.\\
+    DOI: [[https://doi.org/10.1613/jair.301][10.1613/jair.301]]\\
+
+[3] 3D Game Engine Programming (Game Development Series).\\
+    Stefan Zerbst, Oliver Düvel.\\
+    Course Technology PTR; 1 edition (June 30, 2004)\\
+    ISBN-10: 1592003516
+
+**** Specific objectives
+
+  - The main objective of this project is to develop the described
+    environment in a game engine and train a RL agent to solve the
+    aforementioned task.
+
+  - These techniques will explore new innovative Deep Learning
+    methods.
+
+  - The specific application domain(s) will be games, broadcasting,
+    surveillance, etc.
+
+**** Methodology
+
+  An Agile development method will guide the project, with relatively
+  short sprints to build the different tasks, after a preliminary work
+  of study and documentation.
+
+**** Development steps
+
+  - Analysis of requirements and project scheduling, according to student
+    disponibility.
+
+  - Study and documentation.
+    + Game engines.
+    + TensorFlow, Horizon.
+
+  - Incremental, iterative work sequences (sprints) to develop
+    a 3D environment that models an sport.
+
+  - Incremental, iterative work sequences (sprints) to develop a Deep
+    Reinforcement Learning approach for imitating a camera operator.
+
+**** Material
+
+  - Personal computer with GPU and internet access.
+
+** Open Proposal: 20190220                  :Multimedia:Video:Deep__Learning:
+  :PROPERTIES:
+  :export_hugo_section: project
+  :export_hugo_weight: 30
+  :export_file_name: 2019feb_3
+  :export_hugo_custom_front_matter+: :summary "Deep Learning chroma keyer implementation."
+  :export_date: <2019-02-20 Wed 13:15>
+  :END:
+
+*** Deep Learning chroma keyer implementation
+
+    (gl) Implementación dun chroma keyer usando Deep Learning \\
+    (es) Implementación de un chroma keyer usando Deep Learning
+
+**** Supervision
+     [[https://es.linkedin.com/in/luis-omar-alvarez-mures-4a133a59][Luis Omar Álvarez Mures]] (Cinfo, UDC)\\
+     [[http://pdi.udc.es/en/File/Pdi/M459E][Francisco Javier Taibo Pena]] (UDC)\\
+     Emilio José Padrón González (UDC)
+
+**** Brief description
+
+  Chroma key compositing, or chroma keying, is a visual
+  effects/post-production technique for compositing (layering) two
+  images or video streams together based on color hues (chroma
+  range). The technique has been used heavily in many fields to remove
+  a background from the subject of a photo or video – particularly the
+  newscasting, motion picture, and video game industries. A color
+  range in the foreground footage is made transparent, allowing
+  separately filmed background footage or a static image to be
+  inserted into the scene.
+
+  The chroma keying technique is commonly used in video production and
+  post-production. This technique is also referred to as color keying,
+  colour-separation overlay (CSO; primarily by the BBC), or by various
+  terms for specific color-related variants such as green screen, and
+  blue screen – chroma keying can be done with backgrounds of any
+  color that are uniform and distinct, but green and blue backgrounds
+  are more commonly used because they differ most distinctly in hue
+  from most human skin colors. No part of the subject being filmed or
+  photographed may duplicate the color used as the backing [1].
+
+  Deep learning is an aspect of artificial intelligence (AI) that is
+  concerned with emulating the learning approach that human beings use
+  to gain certain types of knowledge. At its simplest, deep learning
+  can be thought of as a way to automate predictive analytics. While
+  traditional machine learning algorithms are linear, deep learning
+  algorithms are stacked in a hierarchy of increasing complexity and
+  abstraction. Each algorithm in the hierarchy applies a nonlinear
+  transformation on its input and uses what it learns to create a
+  statistical model as output. Iterations continue until the output
+  has reached an acceptable level of accuracy. The number of
+  processing layers through which data must pass is what inspired the
+  label deep [2].
+
+  Because deep learning models process information in ways similar to
+  the human brain, models can be applied to many tasks people do. Deep
+  learning is currently used in most common image recognition tools,
+  NLP processing and speech recognition software. These tools are
+  starting to appear in applications as diverse as self-driving cars
+  and language translation services.
+
+  The goal of this project, will be segmenting objects of interest
+  from the background in real-time using SegNet. SegNet is a deep
+  encoder-decoder architecture for multi-class pixelwise segmentation
+  researched and developed by members of the Computer Vision and
+  Robotics Group at the University of Cambridge, UK [3].
+
+[1] The Green Screen Handbook: Real-World Production Techniques\\
+    Jeff Foster.\\
+    Sybex; 1 edition (March 15, 2010)\\
+    ISBN-10: 0470521074
+
+[2] Deep Learning in Neural Networks: An Overview\\
+    Juergen Schmidhuber.\\
+    Neural Networks, Vol 61, pp 85-117, Jan 2015\\
+    DOI: [[https://doi.org/10.1016/j.neunet.2014.09.003][10.1016/j.neunet.2014.09.003]]
+
+[3] SegNet: A Deep Convolutional Encoder-Decoder Architecture for Robust Semantic Pixel-Wise Labelling\\
+    Vijay Badrinarayanan, Ankur Handa, Roberto Cipolla\\
+    2015\\
+    https://arxiv.org/abs/1505.07293
+
+**** Specific objectives
+
+  - The main objective of this project is to develop the described
+    chroma keyer using the described architecture.
+
+  - These techniques will explore new innovative methods to perform
+    chroma keying in real-time.
+
+  - The specific application domain(s) will be games, broadcasting,
+    etc.
+
+**** Methodology
+
+  An Agile development method will guide the project, with relatively
+  short sprints to build the different tasks, after a preliminary work
+  of study and documentation.
+
+**** Development steps
+
+  - Analysis of requirements and project scheduling, according to student
+    disponibility.
+
+  - Study and documentation.
+    + Chroma keying,
+    + TensorFlow, C++, libav.
+
+  - Incremental, iterative work sequences (sprints) to develop
+    a real-time chroma keyer.
+
+**** Material
+
+  - Personal computer with GPU and internet access.
