@@ -1,2 +1,2 @@
-My personal site, managed by emacs, org mode, git and (now) hugo via de ox-hugo exporter.
+My personal site, managed by hugo+academic, emacs, org mode (via ox-hugo exporter) and git.
 
