@@ -18,6 +18,8 @@ organizations:
   url: "http://gac.udc.es"
 - name: CITIC - Research Center
   url: "https://www.citic-research.org"
+- name: Artigo9tech
+  url: "http://rgcud.gal/bd-cooperacion/grupos/artigo9tech.htm"
 - name: Universidade da Coruña
   url: "http://udc.gal"
 - name: GPUL - Grupo de Programadores e Usuarios de GNU/Linux
