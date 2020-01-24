@@ -45,7 +45,7 @@
   :export_hugo_weight: 30
   :export_file_name: archive
   :export_hugo_custom_front_matter+: :summary "Past supervised projects."
-  :export_date: <2019-01-29 Tue 13:24>
+  :export_date: <2018-09-04 Tue 13:24>
   :END:
 
   Past EOG Works and Final Master Thesis supervised /(en)/ \\
@@ -314,25 +314,19 @@ co-advised with /Bruno Raffin/ (Inria Rhône-Alpes, Datamove team)\\
   - Elementos necesarios para el desarrollo de web services:
     frameworks, contenedor web, etc.
 
-** Work in Progress: 20190129 :Data__Analytics:High__Performance__Data__Analytics:Numerical__Simulation:Scientific__Data:Flink:
+** Open Proposal: 20200124 :Data__Analytics:High__Performance__Data__Analytics:Numerical__Simulation:Scientific__Data:Flink:
   :PROPERTIES:
   :export_hugo_section: project
   :export_hugo_weight: 30
-  :export_file_name: 2019jan_1
+  :export_file_name: 2020jan_24
   :export_hugo_custom_front_matter+: :summary "In Situ/In Transit Data Analytics for Scientic Numerical Simulations with Apache Flink."
-  :export_date: <2019-01-29 Tue 14:43>
+  :export_date: <2020-01-24 Fri 10:40>
   :END:
 
 *** In Situ/In Transit Data Analytics for Scientic Numerical Simulations with Apache Flink
 
     (gl) Análise de datos en liña para simulacións científicas con Apache Flink \\
     (es) Análisis de datos en línea para simulaciones científicas con Apache Flink
-
-**** Student
-     Vo Thi Quynh Yen
-
-     + Final year project, [[http://www.masterhpc.es][MSc in HPC]], UDC-USC-CESGA\\
-       (TFM [[http://www.masterhpc.es][Mestrado en Computación de Altas Prestacións]], UDC-USC-CESGA)
 
 **** Supervision
      [[https://team.inria.fr/datamove/team-members/bruno-raffin][Bruno Raffin]] (Inria Rhône-Alpes, Univ. Grenoble Alpes)\\
