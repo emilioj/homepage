@@ -214,6 +214,197 @@ co-advised with /Margarita Amor López/ (UDC, Dpt. Enxeñería de Computadores)\
 *Computación paralela en un entorno heterogéneo CPUs-GPUs* /(es)/\\
 co-advised with /Bruno Raffin/ (Inria Rhône-Alpes, Datamove team)\\
 -> http://kmelot.biblioteca.udc.es/record=b1460801~S1*gag
+** Work in Progress: 202002                        :Reinforcement__Learning:AI:
+  :PROPERTIES:
+  :export_hugo_section: project
+  :export_hugo_weight: 30
+  :export_file_name: 2020feb_1
+  :export_hugo_custom_front_matter+: :summary "Reinforcement Learning multiagent system for simulating a survival environment."
+  :export_date: <2020-02-04 Tue 18:30>
+  :END:
+
+*** Reinforcement Learning multiagent system for simulating a survival environment
+
+    (gl) Sistema multiaxente de Reinforcement Learning para simulación de contorna de supervivencia \\
+    (es) Sistema multiagente de Reinforcement Learning para simulación de entorno de supervivencia
+
+**** Estudiante
+     Rubén Montero Vázquez
+
+     + Final year project, [[http://estudos.udc.es/en/study/detail/4502v01][MSc in Computer Science]], UDC\\
+       (TFM [[http://estudos.udc.es/gl/study/detail/4502v01][Mestrado Universitario en Enxeñería Informática]], UDC)
+
+**** Supervisión
+     [[https://es.linkedin.com/in/luis-omar-alvarez-mures-4a133a59][Luis Omar Álvarez Mures]] (Cinfo, UDC)\\
+     [[http://pdi.udc.es/en/File/Pdi/M459E][Francisco Javier Taibo Pena]] (UDC)\\
+     Emilio José Padrón González (UDC)
+
+**** Descripción
+
+Implementación de sistema multiagente para simulación de un entorno de
+lucha por la supervivencia.
+
+El entorno a implementar será un /Gym/ (https://gym.openai.com) que
+consistirá en un entorno 2D con soporte para diferentes tipos de
+terrenos y múltiples agentes actuando a la vez. Cada agente podrá
+desplazarse por el entorno, encontrando diferentes dificultades
+dependiendo del tipo de terreno, y pudiendo interactuar con diversos
+objetos (en principio se plantean un puente móvil y un puente levadizo
+activable) que ofrezcan posibilidades para cumplir su tarea.
+
+La tarea de los agentes es sobrevivir. Un equipo tiene que huir del
+otro para cumplir su misión, y el otro tiene que capturarlos. Este
+escenario es similar al planteado por OpenAI en su proyecto sobre
+sistemas multiagente (https://openai.com/blog/emergent-tool-use).
+
+La idea principal es que el /layout/ del /Gym/ sea fácilmente configurable
+(distribución de los terrenos, objetos), de tal forma que finalmente
+tengamos una aplicación que permita configurar diferentes escenarios y
+probar el desarrollo de los agentes entrenados en los mismos.
+
+También forma parte fundamental del proyecto la implementación de
+agentes para probar el escenario, estudiando, investigando y
+comparando las técnicas más recientes de /Reinforcement Learning/:
+- /Q-Learning/
+- /Deep Q-Learning/
+- /Policy Gradients/
+- De ser posible, otras opciones más punteras como: /Advantage Actor
+  Critic/ (A2C), /Proximal Policy Gradients/ (PPO), /Random Network
+  Distillation/ (RDN)
+
+Finalmente, se integrarán los resultados con un motor de /render/ que
+permita visualizar las simulaciones de los agentes.
+
+**** Motivación
+
+/Reinforcement Learning/ es un campo que está en auge
+recientemente. Existen numerosos papers publicados recientemente al
+respecto, y se están comenzando a estandarizar metodologías,
+herramientas y procesos.
+
+Este trabajo está motivado por las prometedoras mejoras en relación
+inteligencia artificial que se atisban en el horizonte. Idealmente, se
+pretenden replicar los resultados de OpenAI que han publicado en su
+paper sobre /Emergent-Tool Use From Agent Interaction/
+(https://arxiv.org/abs/1909.07528) y contrastar con diversas
+implementaciones de agentes de /Reinforcement Learning/ que están a la
+orden del día.
+
+**** Objetivos concretos
+
+     - Análisis e implementación de diversas técnicas de
+       /Reinforcement Learning/ para enfrentarlas a un caso práctico
+       (véase Descripción).
+     - Estudio de sus ventajas e inconvenientes, así como su idoneidad
+       para el problema en concreto.
+     - Reproducción de los resultados de OpenAI sobre uso de
+       herramientas por parte de agentes de /Reinforcement Learning/
+       en un entorno competitivo multi-agente.Comparativa de los
+       resultados obtenidos.
+     - Estudio de la viabilidad, interoperabilidad y adecuación de
+       diferentes motores de /render/ a este problema.
+     - Creación de una aplicación que permita fácilmente observar
+       simulaciones de aprendizaje artificial, permitiendo configurar
+       el entorno del mismo y mostrando gráficas de métricas
+       relevantes del proceso.
+     - Poner a prueba la capacidad de la aplicación y extraer
+       conclusiones significativas del proyecto.
+
+**** Fases principales del trabajo
+
+     - Análisis inicial sobre diferentes tipos de agente de
+       /Reinforcement Learning/, pros, contras y viabilidad
+     - Diseño e implementación de un Gym en Python
+     - Implementación de los diversos agentes mencionados
+       anteriormente
+     - Mejoras iterativas sobre ambos componentes
+       + Comparación de los resultados del aprendizaje contra los
+         resultados esperados
+       + Investigación de las peculiaridades de los procesos de
+         aprendizaje de los diferentes agentes
+       + Estudio de las diferentes características del Gym y de su
+         interacción con los agentes
+       + Estudio de alternativas ante problemas hallados
+     - Implementación de una aplicación que integre los componentes y
+       permita configurar el layout del escenario y entrenar
+       automáticamente a los agentes, permitiendo visualizar y
+       explorar los resultados
+     - Integración del sistema anterior con un motor de /render/
+     - Pruebas finales y conclusiones
+
+**** Herramientas y medios a utilizar
+
+     Las herramientas a utilizar serán Python como lenguage de
+     programación, y los módulos asociados de OpenAI para crear
+     /Gyms/. Para la implementación de ciertos agentes será necesario
+     emplear TensorFlow.
+
+     Como motores de render para la parte final se plantean Blender o
+     Godot, por ser software libre, aunque no se descartan otras
+     alternativas.
+
+     Para el entrenamiento de los agentes, no se descarta el uso de un
+     servicio de Cloud Computing en caso de encontrarlo necesario.
+
+**** Justificación de la naturaleza profesional (aplicabilidad, calidad técnica, adecuación de contenidos, dirección y control)
+***** Aplicabilidad
+
+      Este TFM tendrá aplicación como software de aprendizaje sobre
+      /Reinforcement Learning/ en el campo de estudios superiores.
+
+      También se espera que tenga un impacto significativo a nivel de
+      investigación. Y por último, no se descarta su viabilidad como
+      producto de entretenimiento, aunque ello dependerá enteramente
+      de la usabilidad del producto final, ya que el desarrollo no va
+      a estar orientado a este propósito.
+
+***** Calidad técnica
+
+      Este proyecto se llevará a cabo ciñéndonos a los estándares más
+      recientes sobre entornos de /Reinforcement Learning/, empleando
+      modularidad y adaptando todo lo creado con el objetivo de que
+      sirva de utilidad a la comunidad. Se empleará Git como control
+      de versiones desde el instante inicial y se fijarán sesiones de
+      seguimiento para controlar el avance del proyecto y orientarlo
+      correctamente.
+
+      Se empleará una metodología de ciclo de vida incremental que
+      cobrará especial importancia en la fase más intensa del
+      proyecto, el diseño y desarrollo iterativos de los agentes y el
+      Gym.
+
+***** Adecuación de contenidos
+
+      Particularmente, este TFM tiene estrecha relación con la
+      asignatura de Interacción, gráficos y multimedia, ya que buena
+      parte del esfuerzo estará orientado a la implantación del
+      producto en una interfaz visual, aunque, evidentemente también
+      se relaciona con Diseño de Sistemas de Información y con la
+      aplicación adecuada de patrones de diseño y buenas prácticas al
+      proyecto en general.
+
+      Por otra parte, se plantea la posibilidad de integrar los
+      resultados en una aplicación móvil (Arquitecturas y plataformas
+      móviles) de ser viable y permitirlo el alcance.
+
+      Informática como servicio también tiene una vinculación con este
+      proyecto, por plantearnos usar computación en la nube para
+      entrenar a los agentes. Además, otras competencias y
+      conocimientos adquiridos en diferentes asignaturas también serán
+      cruciales para el desarrollo del proyecto.
+
+***** Dirección y control
+
+      El proyecto es viable técnica y económicamente y se llevará a
+      cabo de acuerdo con los puntos expuestos anteriormente. Los puntos
+      más críticos en su puesta en marcha son:
+      - Capacidad de adecuación del entorno a las arquitecturas de los
+        agentes (que deciden la política de actuación) y el desempeño
+        de estos mismos, siendo necesario alcanzar resultados buscados
+        para poder finalizar el trabajo.
+      - Calidad de el motor de render a usar y capacidad para ser
+        integrado con todo el trabajo previo.
+
 ** Work in Progress: 201809                      :Billing:Invoicing:Java__EE:
   :PROPERTIES:
   :export_hugo_section: project
@@ -228,13 +419,13 @@ co-advised with /Bruno Raffin/ (Inria Rhône-Alpes, Datamove team)\\
     (gl) Aplicación de facturación con arquitectura Java EE multicapa para empresas provedoras de servizos \\
     (es) Aplicación de facturación con arquitectura Java EE multicapa para empresas proveedoras de servicios
 
-**** Student
+**** Estudante
      Catarina García Cal
 
      + Final year project, [[http://estudos.udc.es/en/study/detail/614g01v01][BSc in Computer Science]], UDC\\
        (TFG [[http://estudos.udc.es/gl/study/detail/614g01v01][Grao en Enxeñería Informática]], UDC)
 
-**** Supervision
+**** Supervisión
      Emilio José Padrón González (UDC)
 
 **** Descrición
@@ -432,7 +623,7 @@ co-advised with /Bruno Raffin/ (Inria Rhône-Alpes, Datamove team)\\
 
   - Access to HPC resources will be provided to the student.
 
-** Open Proposal: 20190218 :Computer__Graphics:Point_based__Rendering:Interactive__Rendering:Deep__Learning:GPU:
+** Open Proposal: 20190218 :Computer__Graphics:Point_based__Rendering:Interactive__Rendering:Deep__Learning:AI:GPU:
   :PROPERTIES:
   :export_hugo_section: project
   :export_hugo_weight: 30
@@ -559,7 +750,7 @@ co-advised with /Bruno Raffin/ (Inria Rhône-Alpes, Datamove team)\\
 
   - Personal computer with GPU and internet access.
 
-** Open Proposal: 20190219 :Computer__Graphics:Game__Engine:Deep__Learning:Reinforcement__Learning:
+** Open Proposal: 20190219 :Computer__Graphics:Game__Engine:Deep__Learning:Reinforcement__Learning:AI:
   :PROPERTIES:
   :export_hugo_section: project
   :export_hugo_weight: 30
@@ -682,7 +873,7 @@ co-advised with /Bruno Raffin/ (Inria Rhône-Alpes, Datamove team)\\
 
   - Personal computer with GPU and internet access.
 
-** Open Proposal: 20190220                  :Multimedia:Video:Deep__Learning:
+** Open Proposal: 20190220                  :Multimedia:Video:Deep__Learning:AI:
   :PROPERTIES:
   :export_hugo_section: project
   :export_hugo_weight: 30
