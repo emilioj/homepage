@@ -698,6 +698,9 @@ orden del día.
   it is the defacto standard for Machine Learning and Deep Learning
   models.
 
+  The specific application domains are 3D modeling, civil engineering,
+  architecture, etc.
+
 [1] A Overview of Point-based Rendering Techniques.\\
     Mandakini Kaushik, Kapil Kumar Nagwanshi, Lokesh Kumar Sharma.\\
     International Journal of Computer Trends and Technology (IJCTT),\\
@@ -722,8 +725,7 @@ orden del día.
   - These techniques will explore new innovative Deep Learning
     methods.
 
-  - The specific application domain(s) will be 3D modeling, civil
-    engineering, architecture, etc.
+  - A standalone proof-of-concept application will be developed.
 
 **** Methodology
 
@@ -820,6 +822,10 @@ orden del día.
   DQN, Dueling Double DQN, DDPG (DDPG), Soft Actor-Critic (SAC)) to
   see which one fits this problem best.
 
+  The specific application domains would be broadcasting, games,
+  surveillance, etc. The solutions developed in this project will be
+  integrated in an open source game engine, probably Godot [4].
+
 [1] Reinforcement learning and markov decision processes.\\
     Martijn van Otterlo, Marco Wiering.\\
     In: Wiering M., van Otterlo M. (eds) Reinforcement Learning. Adaptation, Learning, and Optimization,\\
@@ -836,17 +842,19 @@ orden del día.
     Course Technology PTR; 1 edition (June 30, 2004)\\
     ISBN-10: 1592003516
 
+[4] Godot Game Engine.\\
+    https://godotengine.org
+
 **** Specific objectives
 
   - The main objective of this project is to develop the described
     environment in a game engine and train a RL agent to solve the
     aforementioned task.
 
-  - These techniques will explore new innovative Deep Learning
-    methods.
+  - The student will explore new innovative Deep Learning methods.
 
-  - The specific application domain(s) will be games, broadcasting,
-    surveillance, etc.
+  - The Automatic Camera Operator implemented will be integrated in an
+    open source game engine.
 
 **** Methodology
 
@@ -934,11 +942,13 @@ orden del día.
   starting to appear in applications as diverse as self-driving cars
   and language translation services.
 
-  The goal of this project, will be segmenting objects of interest
-  from the background in real-time using SegNet. SegNet is a deep
+  The goal of this project is to segment objects of interest from the
+  background in real-time using SegNet. SegNet is a deep
   encoder-decoder architecture for multi-class pixelwise segmentation
   researched and developed by members of the Computer Vision and
-  Robotics Group at the University of Cambridge, UK [3].
+  Robotics Group at the University of Cambridge, UK [3]. This
+  segmentation will be used to provide a 3D chroma key in real time.
+  Specific application domains would be games, broadcasting, etc.
 
 [1] The Green Screen Handbook: Real-World Production Techniques\\
     Jeff Foster.\\
@@ -951,20 +961,18 @@ orden del día.
     DOI: [[https://doi.org/10.1016/j.neunet.2014.09.003][10.1016/j.neunet.2014.09.003]]
 
 [3] SegNet: A Deep Convolutional Encoder-Decoder Architecture for Robust Semantic Pixel-Wise Labelling\\
-    Vijay Badrinarayanan, Ankur Handa, Roberto Cipolla\\
-    2015\\
+    Vijay Badrinarayanan, Ankur Handa, Roberto Cipolla. 2015\\
     https://arxiv.org/abs/1505.07293
 
 **** Specific objectives
 
-  - The main objective of this project is to develop the described
-    chroma keyer using the described architecture.
+   - The main objective of this project is to develop a 3D chroma
+     keyer using a SegNet-based architecture.
 
-  - These techniques will explore new innovative methods to perform
-    chroma keying in real-time.
+   - The student will explore new innovative methods to perform chroma
+     keying in real-time.
 
-  - The specific application domain(s) will be games, broadcasting,
-    etc.
+   - A standalone proof-of-concept application will be developed.
 
 **** Methodology
 
@@ -978,8 +986,9 @@ orden del día.
     disponibility.
 
   - Study and documentation.
-    + Chroma keying,
+    + Chroma keying.
     + TensorFlow, C++, libav.
+    + SegNet.
 
   - Incremental, iterative work sequences (sprints) to develop
     a real-time chroma keyer.
