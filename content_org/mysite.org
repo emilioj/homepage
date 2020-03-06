@@ -225,8 +225,8 @@ co-advised with /Bruno Raffin/ (Inria Rhône-Alpes, Datamove team)\\
 
 *** Reinforcement Learning multiagent system for simulating a survival environment
 
-    (gl) Sistema multiaxente de Reinforcement Learning para simulación de contorna de supervivencia \\
-    (es) Sistema multiagente de Reinforcement Learning para simulación de entorno de supervivencia
+    (gl) Sistema multiaxente de aprendizaxe por reforzo para simulación de contorna de supervivencia \\
+    (es) Sistema multiagente de aprendizaje por refuerzo para simulación de entorno de supervivencia
 
 **** Estudiante
      Rubén Montero Vázquez
@@ -264,7 +264,7 @@ probar el desarrollo de los agentes entrenados en los mismos.
 
 También forma parte fundamental del proyecto la implementación de
 agentes para probar el escenario, estudiando, investigando y
-comparando las técnicas más recientes de /Reinforcement Learning/:
+comparando las técnicas más recientes de aprendizaje por refuerzo:
 - /Q-Learning/
 - /Deep Q-Learning/
 - /Policy Gradients/
@@ -277,8 +277,8 @@ permita visualizar las simulaciones de los agentes.
 
 **** Motivación
 
-/Reinforcement Learning/ es un campo que está en auge
-recientemente. Existen numerosos papers publicados recientemente al
+/Aprendizaje por refuerzo/ es un campo que está en auge
+recientemente. Existen numerosos /papers/ publicados recientemente al
 respecto, y se están comenzando a estandarizar metodologías,
 herramientas y procesos.
 
@@ -287,19 +287,19 @@ inteligencia artificial que se atisban en el horizonte. Idealmente, se
 pretenden replicar los resultados de OpenAI que han publicado en su
 paper sobre /Emergent-Tool Use From Agent Interaction/
 (https://arxiv.org/abs/1909.07528) y contrastar con diversas
-implementaciones de agentes de /Reinforcement Learning/ que están a la
+implementaciones de agentes de aprendizaje por refuerzo que están a la
 orden del día.
 
 **** Objetivos concretos
 
-     - Análisis e implementación de diversas técnicas de
-       /Reinforcement Learning/ para enfrentarlas a un caso práctico
-       (véase Descripción).
+     - Análisis e implementación de diversas técnicas de aprendizaje
+       por refuerzo para enfrentarlas a un caso práctico (véase
+       Descripción).
      - Estudio de sus ventajas e inconvenientes, así como su idoneidad
        para el problema en concreto.
      - Reproducción de los resultados de OpenAI sobre uso de
-       herramientas por parte de agentes de /Reinforcement Learning/
-       en un entorno competitivo multi-agente.Comparativa de los
+       herramientas por parte de agentes de aprendizaje por refuerzo
+       (RL) en un entorno competitivo multi-agente.Comparativa de los
        resultados obtenidos.
      - Estudio de la viabilidad, interoperabilidad y adecuación de
        diferentes motores de /render/ a este problema.
@@ -307,14 +307,16 @@ orden del día.
        simulaciones de aprendizaje artificial, permitiendo configurar
        el entorno del mismo y mostrando gráficas de métricas
        relevantes del proceso.
+     - Desarrollo de una aplicación de entornos de supervivencia que
+       aplica algoritmos de aprendizaje por refuerzo.
      - Poner a prueba la capacidad de la aplicación y extraer
        conclusiones significativas del proyecto.
 
 **** Fases principales del trabajo
 
      - Análisis inicial sobre diferentes tipos de agente de
-       /Reinforcement Learning/, pros, contras y viabilidad
-     - Diseño e implementación de un Gym en Python
+       aprendizaje por refuerzo, pros, contras y viabilidad
+     - Diseño e implementación de un /Gym/ en Python
      - Implementación de los diversos agentes mencionados
        anteriormente
      - Mejoras iterativas sobre ambos componentes
@@ -322,11 +324,11 @@ orden del día.
          resultados esperados
        + Investigación de las peculiaridades de los procesos de
          aprendizaje de los diferentes agentes
-       + Estudio de las diferentes características del Gym y de su
+       + Estudio de las diferentes características del /Gym/ y de su
          interacción con los agentes
        + Estudio de alternativas ante problemas hallados
      - Implementación de una aplicación que integre los componentes y
-       permita configurar el layout del escenario y entrenar
+       permita configurar el /layout/ del escenario y entrenar
        automáticamente a los agentes, permitiendo visualizar y
        explorar los resultados
      - Integración del sistema anterior con un motor de /render/
@@ -339,7 +341,7 @@ orden del día.
      /Gyms/. Para la implementación de ciertos agentes será necesario
      emplear TensorFlow.
 
-     Como motores de render para la parte final se plantean Blender o
+     Como motores de /render/ para la parte final se plantean Blender o
      Godot, por ser software libre, aunque no se descartan otras
      alternativas.
 
@@ -349,8 +351,11 @@ orden del día.
 **** Justificación de la naturaleza profesional (aplicabilidad, calidad técnica, adecuación de contenidos, dirección y control)
 ***** Aplicabilidad
 
+      Desarrollo de una aplicación de entornos de supervivencia que
+      aplica algoritmos de aprendizaje por refuerzo.
+
       Este TFM tendrá aplicación como software de aprendizaje sobre
-      /Reinforcement Learning/ en el campo de estudios superiores.
+      aprendizaje por refuerzo en el campo de estudios superiores.
 
       También se espera que tenga un impacto significativo a nivel de
       investigación. Y por último, no se descarta su viabilidad como
@@ -361,7 +366,7 @@ orden del día.
 ***** Calidad técnica
 
       Este proyecto se llevará a cabo ciñéndonos a los estándares más
-      recientes sobre entornos de /Reinforcement Learning/, empleando
+      recientes sobre entornos de aprendizaje por refuerzo, empleando
       modularidad y adaptando todo lo creado con el objetivo de que
       sirva de utilidad a la comunidad. Se empleará Git como control
       de versiones desde el instante inicial y se fijarán sesiones de
@@ -371,7 +376,7 @@ orden del día.
       Se empleará una metodología de ciclo de vida incremental que
       cobrará especial importancia en la fase más intensa del
       proyecto, el diseño y desarrollo iterativos de los agentes y el
-      Gym.
+      /Gym/.
 
 ***** Adecuación de contenidos
 
@@ -402,7 +407,7 @@ orden del día.
         agentes (que deciden la política de actuación) y el desempeño
         de estos mismos, siendo necesario alcanzar resultados buscados
         para poder finalizar el trabajo.
-      - Calidad de el motor de render a usar y capacidad para ser
+      - Calidad de el motor de /render/ a usar y capacidad para ser
         integrado con todo el trabajo previo.
 
 ** Work in Progress: 201809                      :Billing:Invoicing:Java__EE:
