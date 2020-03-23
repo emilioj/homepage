@@ -886,13 +886,13 @@ orden del día.
 
   - Personal computer with GPU and internet access.
 
-** Open Proposal: 20190220                  :Multimedia:Video:Deep__Learning:AI:
+** Work in Progress: 20200317            :Multimedia:Video:Deep__Learning:AI:
   :PROPERTIES:
   :export_hugo_section: project
   :export_hugo_weight: 30
   :export_file_name: 2019feb_3
   :export_hugo_custom_front_matter+: :summary "Deep Learning chroma keyer implementation."
-  :export_date: <2019-02-20 Wed 13:15>
+  :export_date: <2020-03-23 Mon 10:30>
   :END:
 
 *** Deep Learning chroma keyer implementation
@@ -900,6 +900,11 @@ orden del día.
     (gl) Implementación dun chroma keyer usando Deep Learning \\
     (es) Implementación de un chroma keyer usando Deep Learning
 
+**** Student
+     Daniel Castro Veiga
+
+     + Final year project, [[http://estudos.udc.es/en/study/detail/614g01v01][BSc in Computer Science]], UDC\\
+       (TFG [[http://estudos.udc.es/gl/study/detail/614g01v01][Grao en Enxeñería Informática]], UDC)
 **** Supervision
      [[https://es.linkedin.com/in/luis-omar-alvarez-mures-4a133a59][Luis Omar Álvarez Mures]] (Cinfo, UDC)\\
      [[http://pdi.udc.es/en/File/Pdi/M459E][Francisco Javier Taibo Pena]] (UDC)\\
