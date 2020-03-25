@@ -214,7 +214,7 @@ co-advised with /Margarita Amor López/ (UDC, Dpt. Enxeñería de Computadores)\
 *Computación paralela en un entorno heterogéneo CPUs-GPUs* /(es)/\\
 co-advised with /Bruno Raffin/ (Inria Rhône-Alpes, Datamove team)\\
 -> http://kmelot.biblioteca.udc.es/record=b1460801~S1*gag
-** Work in Progress: 202002                        :Reinforcement__Learning:AI:
+** Work in Progress: 202002                      :Reinforcement__Learning:AI:
   :PROPERTIES:
   :export_hugo_section: project
   :export_hugo_weight: 30
@@ -757,13 +757,13 @@ orden del día.
 
   - Personal computer with GPU and internet access.
 
-** Open Proposal: 20190219 :Computer__Graphics:Game__Engine:Deep__Learning:Reinforcement__Learning:AI:
+** Work in Progress: 20200318 :Computer__Graphics:Game__Engine:Deep__Learning:Reinforcement__Learning:AI:
   :PROPERTIES:
   :export_hugo_section: project
   :export_hugo_weight: 30
   :export_file_name: 2019feb_2
   :export_hugo_custom_front_matter+: :summary "Implementation of an Automatic Camera Operator using Deep Reinforcement Learning."
-  :export_date: <2019-02-18 Mon 19:10>
+  :export_date: <2020-03-25 Mon 10:30>
   :END:
 
 *** Implementation of an Automatic Camera Operator using Deep Reinforcement Learning
@@ -771,6 +771,11 @@ orden del día.
     (gl) Implementación dun operador de cámara automático usando /Deep Reinforcement Learning/ \\
     (es) Implementación de un operador de cámara automático usando /Deep Reinforcement Learning/
 
+**** Student
+     Adrián Rodríguez Louzán
+
+     + Final year project, [[http://estudos.udc.es/en/study/detail/614g01v01][BSc in Computer Science]], UDC\\
+       (TFG [[http://estudos.udc.es/gl/study/detail/614g01v01][Grao en Enxeñería Informática]], UDC)
 **** Supervision
      [[https://es.linkedin.com/in/luis-omar-alvarez-mures-4a133a59][Luis Omar Álvarez Mures]] (Cinfo, UDC)\\
      [[http://pdi.udc.es/en/File/Pdi/M459E][Francisco Javier Taibo Pena]] (UDC)\\
