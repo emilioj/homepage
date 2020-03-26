@@ -510,13 +510,13 @@ orden del día.
   - Elementos necesarios para el desarrollo de web services:
     frameworks, contenedor web, etc.
 
-** Open Proposal: 20200124 :Data__Analytics:High__Performance__Data__Analytics:Numerical__Simulation:Scientific__Data:Flink:
+** Work in Progress: 20200319 :Data__Analytics:High__Performance__Data__Analytics:Numerical__Simulation:Scientific__Data:Flink:
   :PROPERTIES:
   :export_hugo_section: project
   :export_hugo_weight: 30
   :export_file_name: 2020jan_24
   :export_hugo_custom_front_matter+: :summary "In Situ/In Transit Data Analytics for Scientic Numerical Simulations with Apache Flink."
-  :export_date: <2020-01-24 Fri 10:40>
+  :export_date: <2020-03-26 Thu 10:30>
   :END:
 
 *** In Situ/In Transit Data Analytics for Scientic Numerical Simulations with Apache Flink
@@ -524,6 +524,11 @@ orden del día.
     (gl) Análise de datos en liña para simulacións científicas con Apache Flink \\
     (es) Análisis de datos en línea para simulaciones científicas con Apache Flink
 
+**** Student
+     Iago Fernández Picos
+
+     + Final year project, [[http://estudos.udc.es/en/study/detail/614g01v01][BSc in Computer Science]], UDC\\
+       (TFG [[http://estudos.udc.es/gl/study/detail/614g01v01][Grao en Enxeñería Informática]], UDC)
 **** Supervision
      [[https://team.inria.fr/datamove/team-members/bruno-raffin][Bruno Raffin]] (Inria Rhône-Alpes, Univ. Grenoble Alpes)\\
      Emilio José Padrón González (UDC)
