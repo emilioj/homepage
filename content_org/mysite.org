@@ -214,6 +214,84 @@ co-advised with /Margarita Amor López/ (UDC, Dpt. Enxeñería de Computadores)\
 *Computación paralela en un entorno heterogéneo CPUs-GPUs* /(es)/\\
 co-advised with /Bruno Raffin/ (Inria Rhône-Alpes, Datamove team)\\
 -> http://kmelot.biblioteca.udc.es/record=b1460801~S1*gag
+** Work in Progress: 202004
+  :PROPERTIES:
+  :export_hugo_section: project
+  :export_hugo_weight: 30
+  :export_file_name: 2020april_2
+  :export_hugo_custom_front_matter+: :summary "GPU-based mapping of multispectral images on huge 3D point clouds."
+  :export_date: <2020-04-02 Thu 12:30>
+  :END:
+
+*** GPU-based mapping of multispectral images on huge 3D point clouds
+
+    (gl) Mapeo de imaxes multiespectrais sobre nubes de puntos 3D de alta densidad en GPU \\
+    (es) Mapeo de imágenes multiespectrales sobre nubes de puntos 3D de alta densidad en GPU
+
+**** Estudiante
+     [[https://www.ujaen.es/departamentos/dinformatica/contactos/jurado-rodriguez-juan-manuel][Juan Manuel Jurado Rodríguez]]
+
+     + Final year project, [[http://estudos.udc.es/en/study/detail/4502v01][MSc in High Performance Computing]], UDC\\
+       (TFM [[http://estudos.udc.es/gl/study/detail/4502v01][Mestrado en Computación de Altas Prestacións (HPC)]], UDC)
+
+**** Supervisión
+     [[https://www.ujaen.es/departamentos/dinformatica/contactos/feito-higueruela-francisco-ramon][Francisco Ramón Feito Higueruela]] (Universidad de Jaén)\\
+     Emilio José Padrón González (UDC)
+
+**** Descripción
+
+     En este trabajo se aborda el estudio, desarrollo y evaluación en
+     GPU de un algoritmo secuencial [1] basado en el mapeo de imágenes
+     multiespectrales sobre extensas nubes de puntos. Se abordan
+     problemas computacionalmente costosos tales como el manejo de
+     nubes de puntos de alta resolución espacial (cientos de millones
+     de puntos), la detección de oclusión, entre otros. Desde la
+     perspectiva del HPC, se pretende detectar los principales cuellos
+     de botella del código y aprovechar la potencia de cálculo en la
+     GPU para acelerar el conjunto de cálculos realizados.
+
+[1] Jurado, J. M., Ortega, L., Cubillas, J. J., & Feito,
+F. R. (2020). Multispectral Mapping on 3D Models and Multi-Temporal
+Monitoring for Individual Characterization of Olive Trees. Remote
+Sensing, 12(7), 1106.
+
+**** Objetivos concretos
+
+     Los principales objetivos de este proyecto son:
+
+     1. la revisión y evaluación de los principales problemas que
+        plantea el algoritmo de estudio
+     2. la aceleración del conjunto de cálculos referentes a la
+        oclusión y mapeo 3D utilizando una o varias GPUs en un
+        cluster.
+
+**** Método de trabajo:
+
+     - Se producirán una o varias reuniones semanales entre el alumno
+       y su tutor profesional para monitorizar su progreso y decidir
+       los siguientes pasos a seguir.
+
+     - Se generará un informe quincenal sobre el trabajo realizado que
+       además será compartido con el tutor académico.
+
+     - Se generará un informe final que resumirá las actividades
+       realizadas por el alumno, que también será compartido con el
+       tutor académico.
+
+**** Fases principales del trabajo
+
+     1. Revisión bibliográfica.
+     2. Profiling y estudio previo del algoritmo secuencial.
+     3. Diseño y desarrollo del algoritmo acelerado por GPU.
+     4. Diseño y desarrollo de la versión multi-GPU del algoritmo en
+        paralelo.
+     5. Análisis del rendimiento.
+
+**** Herramientas y medios a utilizar
+
+     Acceso a un /cluster/ que contenga varias tarjetas gráficas para
+     cómputo en el mismo nodo.
+
 ** Work in Progress: 202002                      :Reinforcement__Learning:AI:
   :PROPERTIES:
   :export_hugo_section: project
