@@ -711,11 +711,11 @@ orden del día.
 
   - Access to HPC resources will be provided to the student.
 
-** Open Proposal: 20190218 :Computer__Graphics:Point_based__Rendering:Interactive__Rendering:Deep__Learning:AI:GPU:
+** Work in Progress: 20200626 :Computer__Graphics:Point_based__Rendering:Interactive__Rendering:Deep__Learning:AI:GPU:
   :PROPERTIES:
   :export_hugo_section: project
   :export_hugo_weight: 30
-  :export_file_name: 2019feb_1
+  :export_file_name: 2020jun_1
   :export_hugo_custom_front_matter+: :summary "Deep Learning Approach for Point-based Rendering."
   :export_date: <2019-02-18 Mon 14:00>
   :END:
@@ -725,120 +725,110 @@ orden del día.
     (gl) Unha aproximación /Deep Learning/ para render de nubes de puntos \\
     (es) Una aproximación /Deep Learning/ para render de nubes de puntos
 
-**** Supervision
+**** Estudante
+     Martín Sánchez Fontao
+
+     + Final year project, [[http://estudos.udc.es/en/study/detail/614g01v01][BSc in Computer Science]], UDC\\
+       (TFG [[http://estudos.udc.es/gl/study/detail/614g01v01][Grao en Enxeñería Informática]], UDC)
+
+**** Supervisión
      [[https://es.linkedin.com/in/luis-omar-alvarez-mures-4a133a59][Luis Omar Álvarez Mures]] (Cinfo, UDC)\\
      [[http://pdi.udc.es/en/File/Pdi/M459E][Francisco Javier Taibo Pena]] (UDC)\\
      Emilio José Padrón González (UDC)
 
-**** Brief description
+**** Breve descrición
 
-  A point cloud is a set of data points in space. Point clouds are
-  generally produced by 3D scanners, which measure a large number of
-  points on the external surfaces of objects around them. As the
-  output of 3D scanning processes, point clouds are used for many
-  purposes, including to create 3D CAD models for manufactured parts,
-  for metrology and quality inspection, and for a multitude of
-  visualization, animation, rendering and mass customization
-  applications [1].
+     Unha nube de puntos é un conxunto de datos asociados a posicións
+     puntuais no espazo. As nubes de puntos xeralmente son producidas
+     por escáneres 3D, que miden gran cantidade de puntos nas
+     superficies externas dos obxectos que os rodean, xerando
+     conxuntos de datos que poden conter unha alta densidade de
+     puntos.
 
-  In order to visualize this massive amounts of data one needs to
-  leverage Point-Based Rendering (PBR) techniques [2]. Rendering is
-  the process of generating an image from a model by means of a
-  software program. The model is a description of three dimensional
-  objects in a strictly defined data structure. It contains geometry,
-  viewpoint, texture and lighting information. Rendering is one of the
-  major field of 3D computer graphics.
+     As nubes de puntos utilízanse para moitos propósitos, como para
+     crear modelos CAD en 3D, para pezas manufacturadas, para
+     metroloxía e inspección de calidade, e para multitude de
+     aplicacións de visualización, animación e renderizado.
 
-  Using points as the rendering primitive, output images are
-  constructed from a cloud of points and this is known as Point-Based
-  Rendering (PBR). Comparing polygon meshes with points is analogous
-  to comparing vector graphics with pixel graphics. Points in 3D are
-  analogous to pixels in 2D, replacing textured triangles or higher
-  order surfaces by zero-dimensional elements.
+     Para unha visualización de calidade dunha nube de puntos de
+     densidade arbitraria precísase de técnicas de renderizado
+     específicas para o traballo con este tipo de primitivas gráficas,
+     xa que tanto o hardware das tarxetas gráficas como o pipeline de
+     render que expoñen as principais APIS gráficas están deseñados
+     para a visualización de polígonos (triángulos,
+     nomeadamente). Estas técnicas coñécense polo nome de Renderizado
+     Baseado en Puntos (Point-based Rendering).
 
-  Since points are adimensional, they need to be used to calculate
-  normals and use them to provide the visual representation with a
-  surface, which is then called Splat. The process of estimating
-  normals is non-trivial. Point sets are usually quite noisy and have
-  no more information than an (x,y,z) point position.
+     O punto é unha primitiva adimensional, e unha nube de puntos non
+     ten topoloxía, o que dificulta a obtención de vectores normais
+     que poidan axudar na obtención dunha representación visual que
+     permita reconstruír superficies sen buratos (para o que se adoita
+     empregar unha técnica denominada /«splatting»/). O feito de que
+     as nubes de puntos procedentes dunha captura adoiten ter ademais
+     bastante ruído tampouco axuda no proceso de estimación de
+     normais, que non é para nada trivial.
 
-  Deep learning [3] architectures such as deep neural networks, deep
-  belief networks and recurrent neural networks have been applied to
-  fields including computer vision, speech recognition, natural
-  language processing, audio recognition, social network filtering,
-  machine translation, bioinformatics, drug design, medical image
-  analysis, material inspection and board game programs, where they
-  have produced results comparable to and in some cases superior to
-  human experts.
+     As arquitecturas de Deep learning así como /deep neural
+     networks/, /deep belief networks/ e /recurrent neural networks/,
+     estanse a aplicar con éxito en campos como visión artificial,
+     recoñecemento de voz, procesamiento de linguaxe natural,
+     recoñecemento de audio, filtrado de redes sociais, tradución
+     entre máquinas, bioinformática, etc. Nalgunha destas disciplinas
+     estas arquitecturas están a obter resultados comparables ou
+     nalgúns casos superiores aos expertos humanos.
 
-  Deep learning models are vaguely inspired by information processing
-  and communication patterns in biological nervous systems yet have
-  various differences from the structural and functional properties of
-  biological brains (especially human brains), which make them
-  incompatible with neuroscience evidences.
+     O primeiro obxectivo deste proxecto é a implementación do estado
+     da arte en *técnicas Point-based Rendering e en algoritmos de
+     estimación de normais* para unha visualización de calidade de
+     nubes de puntos de densidade arbitraria. Un segundo obxectivo é a
+     implementación dun método para a estimación de normais empregando
+     *técnicas de Deep Learning*, tentando mellorar os resultados
+     obtidos mediante a aplicación de técnicas tradicionais.
 
-  The goal of this project will be the implementation of
-  state-of-the-art PBR techniques and normal estimation
-  algorithms. Deep Learning techniques will then be tested out to try
-  to improve on these classical approaches. In order to achieve these
-  results, OpenGL will be used to render said primitives in
-  real-time. On the Deep Learning side, TensorFlow will be used since
-  it is the defacto standard for Machine Learning and Deep Learning
-  models.
+     Para as tarefas de visualización farase uso da API gráfica
+     multiplataforma OpenGL, mentres que para a parte de Deep Learning
+     empregaremos TensorFlow e Keras.
 
-  The specific application domains are 3D modeling, civil engineering,
-  architecture, etc.
 
-[1] A Overview of Point-based Rendering Techniques.\\
-    Mandakini Kaushik, Kapil Kumar Nagwanshi, Lokesh Kumar Sharma.\\
-    International Journal of Computer Trends and Technology (IJCTT),\\
-    V3(1):19-24. 2012. ISSN 2231-2803.\\
-    http://www.ijcttjournal.org.\\
+**** Objetivos concretos
 
-[2] Point-Based Graphics.\\
-    Markus Gross, Hanspeter Pfister.\\
-    Morgan Kaufmann. 2007.\\
-    ISBN: 0123706041 9780080548821\\
+     - Desenvolver un visualizador para nubes de puntos en OpenGL que
+       implemente as técnicas do estado da arte en renderizado de
+       puntos, incluíndo unha estimación de normais baseada nos
+       habituais métodos numéricos.
 
-[3] Deep Learning in Neural Networks: An Overview\\
-    Juergen Schmidhuber.\\
-    Neural Networks, Vol 61, pp 85-117, Jan 2015\\
-    DOI: [[https://doi.org/10.1016/j.neunet.2014.09.003][10.1016/j.neunet.2014.09.003]]
+     - Propoñer e implementar un método de estimación de normais
+       baseado nunha arquitectura Deep Learning que permita substituír
+       (e estimamos que mellorar) ás técnicas habituais.
 
-**** Specific objectives
+     - A aplicación desenvolvida será multiplataforma e permitirá
+       avaliar todos os algoritmos implementados.
 
-  - The main objective of this project is to develop PBR and normal
-    estimation techniques with OpenGL and TensorFlow.
+**** Metodoloxía
 
-  - These techniques will explore new innovative Deep Learning
-    methods.
+     Utilizaremos unha metodoloxía áxil, con sprints relativamente
+     curtos para dar forma ás distintas tareas. Todo isto despois dun
+     estudo e documentación da materia preliminar.
 
-  - A standalone proof-of-concept application will be developed.
+**** Fases principais do traballo
 
-**** Methodology
+     1. Análisis de requisitos e planificación do proxecto.
 
-  An Agile development method will guide the project, with relatively
-  short sprints to build the different tasks, after a preliminary work
-  of study and documentation.
+     2. Estudo e documentación.
 
-**** Development steps
+        a. Técnicas PRB e estimación de normais.
+        b. C++, OpenGL, TensorFlow e Keras.
 
-  - Analysis of requirements and project scheduling, according to student
-    disponibility.
+     3. Sprints incrementais para desenvolver técnicas de PBR para a
+        visualización, e de estimacións de normais con métodos
+        numéricos.
 
-  - Study and documentation.
-    + PBR techniques and normal estimation.
-    + C++, OpenGL and TensorFlow.
-
-  - Incremental, iterative work sequences (sprints) to develop
-    classical PBR and normal estimation techniques.
-
-  - Incremental, iterative work sequences (sprints) to develop
-    Deep Learning approach for normal estimation.
+     4. Sprints incrementais para desenvolver unha aproximación para a
+        estimación de normais con Deep Learning.
 
 **** Material
 
-  - Personal computer with GPU and internet access.
+     Un ordenador persoal con GPU e acceso a internet.
 
 ** Work in Progress: 20200318 :Computer__Graphics:Game__Engine:Deep__Learning:Reinforcement__Learning:AI:
   :PROPERTIES:
