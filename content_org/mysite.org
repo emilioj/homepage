@@ -45,161 +45,194 @@
   :export_hugo_weight: 30
   :export_file_name: archive
   :export_hugo_custom_front_matter+: :summary "Past supervised projects."
-  :export_date: <2018-09-04 Tue 13:24>
+  :export_date: <2020-07-24 Fri 12:05>
   :END:
 
   Past EOG Works and Final Master Thesis supervised /(en)/ \\
   Histórico de Traballos Fin de Grao e de Mestrado dirixidos /(gl)/
 
+*** 2020
+**** Reinforcement Learning multiagent system for simulating a survival environment :MUEI:
+*Sistema multiaxente de aprendizaxe por reforzo para simulación de contorna de supervivencia* /(gl)/ \\
+*Sistema multiagente de aprendizaje por refuerzo para simulación de entorno de supervivencia* /(en)/ \\
+by /Rubén Montero Vázquez/ \\
+co-advised with /Luis Omar Álvarez Mures/ (Cinfo, UDC) and /Francisco Javier Taibo Pena/ (UDC)\\
+-> [[file:files/MonteroVazquez_Ruben_TFM_2020.pdf][pdf (en)]]\\
+-> [[https://gitlab.com/ruben.montero/town-survival-rl-simulator]]
+
 *** 2018
-**** Design and implementation of a videogame in the field of Human Rights based on free software tools
-*Deseño e implementación dun videoxogo no ámbito dos dereitos humanos baseado en ferramentas libres*\\
-*Diseño e implementación de un videojuego en el ámbito de los derechos humanos basado en herramientas libres*\\
-co-advised with Miguel Rodríguez-Segade Alonso and Sergio Fernández Alonso (ESF, Enseñería sen Fronteiras)\\
--> [[file:misc/BarbeiraHayes_Daniel_TFM_2018.pdf][pdf (gl)]]\\
+**** Design and implementation of a videogame in the field of Human Rights based on free software tools :MUEI:
+*Deseño e implementación dun videoxogo no ámbito dos dereitos humanos baseado en ferramentas libres* /(gl)/ \\
+*Diseño e implementación de un videojuego en el ámbito de los derechos humanos basado en herramientas libres* /(es)/ \\
+by /Daniel José Barbeira Hayes/ \\
+co-advised with /Miguel Rodríguez-Segade Alonso/ (ESF, Enseñería sen Fronteiras) and /Sergio Fernández Alonso/ (ESF, Enseñería sen Fronteiras)\\
+-> [[file:files/BarbeiraHayes_Daniel_TFM_2018.pdf][pdf (gl)]]\\
 -> https://gitlab.com/daniel.barbeira/blockrain.js
 
 **** In-Transit Molecular Dynamics Analysis with Apache Flink      :Grenoble:
 Master of Science in Informatics, specialization Parallel, Distributed and Embedded Systems. Université Grenoble Alpes.\\
+by /Henrique Colao Zanúz/ \\
 co-advised with /Bruno Raffin/ (Inria Rhône-Alpes, Datamove team)\\
+-> [[file:files/ColaoZanuz_Henrique_2018.pdf][pdf (en)]]
 
 **** Interactive voxel-based rendering engine: study and development    :GEI:
-*Estudo e desenvolvemento dun motor gráfico interactivo baseado en voxels* /(gl)/\\
-*Estudio y desarrollo de un motor gráfico interactivo basado en voxels* /(es)/\\
+*Estudo e desenvolvemento dun motor gráfico interactivo baseado en voxels* /(gl)/ \\
+*Estudio y desarrollo de un motor gráfico interactivo basado en voxels* /(es)/ \\
+by /Víctor Castro Cabado/ \\
 co-advised with /Diego Andrade Canosa/ (UDC, Dpt. Enxeñería de Computadores)\\
 -> [[http://kmelot.biblioteca.udc.es/record=b1662870~S1*gag][http://kmelot.biblioteca.udc.es/record=b1662870~S1*gag]]\\
--> [[file:misc/4050_CastroCabado_Victor_TFG_2018.pdf][pdf (es)]]
+-> [[file:files/4050_CastroCabado_Victor_TFG_2018.pdf][pdf (es)]]
 
 *** 2016
 **** Automatic generation of animation sequences from video              :EI:
-*Xeración automática de secuencias en animación a partir de vídeo* /(gl)/\\
-*Generación automática de secuencias en animación a partir de vídeo* /(es)/\\
+*Xeración automática de secuencias en animación a partir de vídeo* /(gl)/ \\
+*Generación automática de secuencias en animación a partir de vídeo* /(es)/ \\
+by /Diego Moreda Rodríguez/ \\
 -> http://kmelot.biblioteca.udc.es/record=b1545896~S1*gag\\
--> https://github.com/diego-plan9/rotoscopia
+-> [[file:files/aras-memoria-20160922.pdf][pdf (es)]] [[file:files/aras-presentacion-20160922.pdf][slides (es)]]
 
 **** Development of a web application for historical investigation and dissemination :GEI:
-*Desenvolvemento dunha aplicación web para a investigación e divulgación histórica* /(gl)/\\
-*Desarrollo de una aplicación web para la investigación y divultación histórica* /(es)/\\
+*Desenvolvemento dunha aplicación web para a investigación e divulgación histórica* /(gl)/ \\
+*Desarrollo de una aplicación web para la investigación y divultación histórica* /(es)/ \\
+by /José Enrique Benlloch Castiñeira/ \\
 -> http://kmelot.biblioteca.udc.es/record=b1541529~S1*gag
 
 **** Java application for face recognition using OpenCV                  :EI:
-*Aplicación de recoñecemento facial en Java mediante OpenCV* /(gl)/\\
-*Aplicación de reconocimiento facial en Java mediante OpenCV* /(es)/\\
+*Aplicación de recoñecemento facial en Java mediante OpenCV* /(gl)/ \\
+*Aplicación de reconocimiento facial en Java mediante OpenCV* /(es)/ \\
+by /David García Pol/ \\
 -> http://kmelot.biblioteca.udc.es/record=b1537338~S1*gag
 
 **** Planar surfaces recognition using genetic algorithms in CUDA      :ETIS:
-*Recoñecemento de superficies planas con algoritmos xenéticos en Cuda* /(gl)/\\
-*Reconocimiento de superficies planas con algoritmos genéticos en CUDA* /(es)/\\
+*Recoñecemento de superficies planas con algoritmos xenéticos en CUDA* /(gl)/ \\
+*Reconocimiento de superficies planas con algoritmos genéticos en CUDA* /(es)/ \\
+by /Iván Lago Castro/ \\
 -> http://kmelot.biblioteca.udc.es/record=b1544003~S1*gag
 
 **** Deployment and integration of a collaborative email platform with a storage system in a private cloud :ETIX:
-*Implantación e integración dunha plataforma de correo colaborativo cun sistema de almacenamento nunha nube privada* /(gl)/\\
-*Implantación e integración de una plataforma de correo colaborativo con un sistema de almacenamiento en una nube privada* /(es)/\\
+*Implantación e integración dunha plataforma de correo colaborativo cun sistema de almacenamento nunha nube privada* /(gl)/ \\
+*Implantación e integración de una plataforma de correo colaborativo con un sistema de almacenamiento en una nube privada* /(es)/ \\
+by /Lorenzo Rodríguez Pérez/ \\
 -> http://kmelot.biblioteca.udc.es/record=b1543792~S1*gag
 
 **** Web application to manage workflows within a company              :ETIX:
-*Aplicación web para a xestión do fluxo de traballo dentro dunha empresa* /(gl)/\\
-*Aplicación web para la gestión del flujo de trabajo dentro de una empresa* /(es)/
+*Aplicación web para a xestión do fluxo de traballo dentro dunha empresa* /(gl)/ \\
+*Aplicación web para la gestión del flujo de trabajo dentro de una empresa* /(es)/ \\
+by /Marcos Pérez Vázquez/
 
 **** Application for managing a country store                          :ETIX:
-*Desenvolvemento dunha aplicación para a xestión dunha tenda de ultramarinos no rural* /(gl)/\\
-*Desarrollo de una aplicación para la gestión de una tienda de ultramarinos rural* /(es)/\\
+*Desenvolvemento dunha aplicación para a xestión dunha tenda de ultramarinos no rural* /(gl)/ \\
+*Desarrollo de una aplicación para la gestión de una tienda de ultramarinos rural* /(es)/ \\
+by /Gerardo Manuel López Fernández/ \\
 -> http://kmelot.biblioteca.udc.es/record=b1543790~S1*gag
 
 
 
 *** 2015
 **** Design and implementation of a HPC solution for Stereo Matching  :MICAP:
-*Deseño e implementación dunha solución HPC para Stereo Matching* /(gl)/\\
-*Diseño e implementación de una solución HPC para Stero Matching* /(es)/\\
+*Deseño e implementación dunha solución HPC para Stereo Matching* /(gl)/ \\
+*Diseño e implementación de una solución HPC para Stero Matching* /(es)/ \\
+by /Luis Omar Álvarez Mures/ \\
 co-advised with /Juan Ramón Rabuñal Dopico/ (UDC, Dpt. Computación)\\
--> http://gac.udc.es/~emilioj/advising/micap_omaralvarez_2015.pdf\\
+-> [[file:files/micap_omaralvarez_2015.pdf][pdf (en)]]\\
 -> https://github.com/omaralvarez/GCVL
 
 **** Design and implementation of the deployment in the cloud of a highly-­scalable platform for multimedia metadata
-*Deseño e implementación do despregamento na nube dunha plataforma altamente escalable de metadatos multimedia* /(gl)/\\
-*Diseño e implementación del despliegue en la nube de una plataforma altamente escalable de metadatos multimedia* /(es)/\\
+*Deseño e implementación do despregamento na nube dunha plataforma altamente escalable de metadatos multimedia* /(gl)/ \\
+*Diseño e implementación del despliegue en la nube de una plataforma altamente escalable de metadatos multimedia* /(es)/ \\
+by /Juan Font Alonso/ \\
 co-advised with /Laura Milagros Castro Souto/ (UDC, Dpt. Computación)\\
--> http://gac.udc.es/~emilioj/advising/micap_juanfont_2015.pdf
+-> [[file:files/micap_juanfont_2015.pdf][pdf (gl)]]
 
 **** Implementation of a stock management system for an e-commerce platform :GEI:
-*Implementación dun sistema de xestión de stock para unha plataforma de comercio electrónico* /(gl)/\\
-*Implementación de un sistema de gestión de stock para una plataforma de comercio electrónico* /(es)/
+*Implementación dun sistema de xestión de stock para unha plataforma de comercio electrónico* /(gl)/ \\
+*Implementación de un sistema de gestión de stock para una plataforma de comercio electrónico* /(es)/ \\
+by /Juan Manuel García Sánchez/ \\
 -> http://kmelot.biblioteca.udc.es/record=b1531121~S1*gag
 
 **** State-of-the-art point cloud rendering with OpenGL                :ETIS:
-*Visualización avanzada de nubes de puntos con OpenGL* /(gl/es)/\\
+*Visualización avanzada de nubes de puntos con OpenGL* /(gl/es)/ \\
 co-advised with /Luis Omar Álvarez Mures/ (UDC, PhD Student at Dpt. Enxeñería de Computadores)\\
+by /David Antúnez González/ \\
 -> http://kmelot.biblioteca.udc.es/record=b1535210~S1*gag\\
 -> https://github.com/eipporko/Cube
 
 *** 2014
 **** Implementation of ITILv3 in the IT services of a local government  :GEI:
-*Implantación de ITILv3 nos servizos TI dunha administración local* /(gl)/\\
-*Implantación de ITILv3 en los servicios TI de una administración local* /(gl)/\\
+*Implantación de ITILv3 nos servizos TI dunha administración local* /(gl)/ \\
+*Implantación de ITILv3 en los servicios TI de una administración local* /(gl)/ \\
+by /Gloria Picos Sedes/ \\
 co-advised with /Ramón Álvarez Veiras/ (Concello da Coruña, Dpt. Informática)
 
 **** Real-time management tool massive 3D point clouds                  :GEI:
-*Ferramenta para o traballo interactivo con grandes nubes de puntos 3D* /(gl)/\\
-*Herramienta para el trabajo interactivo con grandes nubes de puntos 3D* /(es)/\\
+*Ferramenta para o traballo interactivo con grandes nubes de puntos 3D* /(gl)/ \\
+*Herramienta para el trabajo interactivo con grandes nubes de puntos 3D* /(es)/ \\
+by /Luis Omar Álvarez Mures/ \\
 co-advised with /Alberto Jaspe Villanueva/ (Italy, CRS4, Visual Computing Group)\\
 -> http://kmelot.biblioteca.udc.es/record=b1521392~S1*gag
 
 *** 2013
 **** Real-time multiresolution 3D visualization system for huge LIDAR datasets :GEI:
-*Sistema multirresolución de visualización 3D en tempo real para grandes bases de datos LIDAR* /(gl)/\\
-*Sistema multirresolución de visualización 3D en tiempo real para grandes bases de datos LIDAR* /(es)/\\
--> http://kmelot.biblioteca.udc.es/record=b1515710~S1*gag
+*Sistema multirresolución de visualización 3D en tempo real para grandes bases de datos LIDAR* /(gl)/ \\
+*Sistema multirresolución de visualización 3D en tiempo real para grandes bases de datos LIDAR* /(es)/ \\
+by /Alberto Jaspe Villanueva/ \\
+-> http://kmelot.biblioteca.udc.es/record=b1515710~S1*gag\\
+-> [[file:files/JaspeVillanueva_Alberto_TFG_2013.pdf][pdf (es)]]
 
 **** Conjugate gradient for sparse matrices on GPU using CUDA            :EI:
-*Gradiente conxugado para matrices dispersas sobre GPUs usando CUDA* /(gl)/\\
-*Gradiente conjugado para matrices dispersas sobre GPUs usando CUDA* /(es)/\\
+*Gradiente conxugado para matrices dispersas sobre GPUs usando CUDA* /(gl)/ \\
+*Gradiente conjugado para matrices dispersas sobre GPUs usando CUDA* /(es)/ \\
+by /María del Carmen Pena Lourés/ \\
 co-advised with /Margarita Amor López/ (UDC, Dpt. Enxeñería de Computadores)\\
 -> http://kmelot.biblioteca.udc.es/record=b1506243~S1*gag
 
 **** Client-server point-based rendering WebGL                           :EI:
-*Sistema cliente-servidor para a visualización de nubes de puntos con WebGL* /(gl)/\\
-*Sistema cliente-servidor para la visualización de nubes de puntos con WebGL* /(es)/\\
+*Sistema cliente-servidor para a visualización de nubes de puntos con WebGL* /(gl)/ \\
+*Sistema cliente-servidor para la visualización de nubes de puntos con WebGL* /(es)/ \\
+by /Javier Rey Neira/ \\
 co-advised with /Alberto Jaspe Villanueva/ (Italy, CRS4, Visual Computing Group)\\
 -> http://kmelot.biblioteca.udc.es/record=b1506989~S1*gag
 
 **** Software for managing the budget, planning and cost control in a construction company :GEI:
-*Aplicación para a xestión de orzamentos, planificación e control de custos de obra dunha empresa de construción* /(gl)/\\
-*Aplicación para la gestión de presuspuestos, planificación y control de costes de obra de una empresa de construcción* /(es)/\\
+*Aplicación para a xestión de orzamentos, planificación e control de custos de obra dunha empresa de construción* /(gl)/ \\
+*Aplicación para la gestión de presuspuestos, planificación y control de costes de obra de una empresa de construcción* /(es)/ \\
+by /Raúl Fernández Núñez/ \\
 -> http://kmelot.biblioteca.udc.es/record=b1516169~S1*gag
 
 *** 2012
 **** Point Cloud Manager: A multi-resolution framework for managing huge 3D point cloud datasets :MICAP:
-*Point Cloud Manager: Sistema Multirresolución para o tratamento de grandes datasets de nubes de puntos 3D* /(gl)/\\
-*Point Cloud Manager: Sistema Multirresolución para el tratamiento de grandes datasets de nubes de puntos 3D* /(es)/\\
+*Point Cloud Manager: Sistema Multirresolución para o tratamento de grandes datasets de nubes de puntos 3D* /(gl)/ \\
+*Point Cloud Manager: Sistema Multirresolución para el tratamiento de grandes datasets de nubes de puntos 3D* /(es)/ \\
+by /Alberto Jaspe Villanueva/ \\
 co-advised with /Javier Taibo Pena/ (UDC, Dpt. Enxeñería Civil)\\
--> http://gac.udc.es/~emilioj/advising/micap_albertojaspe_2012.pdf
+-> [[file:files/micap_albertojaspe_2012.pdf][pdf (es)]]
 
 **** Global illumination for point-based rendering                     :ETIS:
-*Iluminación global para render baseado en puntos* /(gl)/\\
-*Iluminación global para render basado en puntos* /(es)/\\
+*Iluminación global para render baseado en puntos* /(gl)/ \\
+*Iluminación global para render basado en puntos* /(es)/ \\
+by /Luis Omar Álvarez Mures/ \\
 co-advised with /Alberto Jaspe Villanueva/ (Italy, CRS4, Visual Computing Group)\\
 -> http://kmelot.biblioteca.udc.es/record=b1488553~S1*gag
 
 **** Building a robot to autonomously traverse the whole area inside a perimeter :ETIS:
-*Construción dun robot que de xeito autónomo recorra toda a área delimitada por un perímetro* /(gl)/\\
-*Construcción de un robot que de forma autónoma recorra toda el área delimitada por un perímetro* /(es)/\\
+*Construción dun robot que de xeito autónomo recorra toda a área delimitada por un perímetro* /(gl)/ \\
+*Construcción de un robot que de forma autónoma recorra toda el área delimitada por un perímetro* /(es)/ \\
 -> http://kmelot.biblioteca.udc.es/record=b1490803~S1*gag
 
 **** Performance analysis of CUDA computation                          :ETIS:
-*Análisis de rendemento da computación con CUDA* /(gl)/\\
-*Análisis de rendimiento de la computación con CUDA* /(es)/\\
+*Análisis de rendemento da computación con CUDA* /(gl)/ \\
+*Análisis de rendimiento de la computación con CUDA* /(es)/ \\
 -> http://kmelot.biblioteca.udc.es/record=b1490805~S1*gag
 
 **** A tool for the creation and management of basketball moves and exercises :ETIS:
-*Ferramenta para a creación e xestión de xogadas e exercicios de baloncesto /(gl)/*\\
-*Herramienta para la creación y gestión de jugadas y ejercicios de baloncesto /(es)/*\\
+*Ferramenta para a creación e xestión de xogadas e exercicios de baloncesto /(gl)/* \\
+*Herramienta para la creación y gestión de jugadas y ejercicios de baloncesto /(es)/* \\
 -> http://kmelot.biblioteca.udc.es/record=b1490808~S1*gag
 
 *** 2011
 **** Performance analysis of CUDA 4.0 for multiple GPUs                  :EI:
-*Análise de rendemento multiGPU en CUDA 4.0* /(gl)/\\
-*Análisis de rendimiento multiGPU en CUDA 4.0* /(es)/\\
+*Análise de rendemento multiGPU en CUDA 4.0* /(gl)/ \\
+*Análisis de rendimiento multiGPU en CUDA 4.0* /(es)/ \\
 co-advised with /Margarita Amor López/ (UDC, Dpt. Enxeñería de Computadores)\\
 -> http://kmelot.biblioteca.udc.es/record=b1473774~S1*gag
 
@@ -210,8 +243,8 @@ co-advised with /Margarita Amor López/ (UDC, Dpt. Enxeñería de Computadores)\
 
 *** 2010
 **** Parallel computation in a CPUs-GPUs heterogenerous environment    :ETIS:
-*Computación paralela nunha contorna heteroxénea CPUs-GPUs* /(gl)/\\
-*Computación paralela en un entorno heterogéneo CPUs-GPUs* /(es)/\\
+*Computación paralela nunha contorna heteroxénea CPUs-GPUs* /(gl)/ \\
+*Computación paralela en un entorno heterogéneo CPUs-GPUs* /(es)/ \\
 co-advised with /Bruno Raffin/ (Inria Rhône-Alpes, Datamove team)\\
 -> http://kmelot.biblioteca.udc.es/record=b1460801~S1*gag
 ** Work in Progress: 202004
@@ -291,202 +324,6 @@ Sensing, 12(7), 1106.
 
      Acceso a un /cluster/ que contenga varias tarjetas gráficas para
      cómputo en el mismo nodo.
-
-** Work in Progress: 202002                      :Reinforcement__Learning:AI:
-  :PROPERTIES:
-  :export_hugo_section: project
-  :export_hugo_weight: 30
-  :export_file_name: 2020feb_1
-  :export_hugo_custom_front_matter+: :summary "Reinforcement Learning multiagent system for simulating a survival environment."
-  :export_date: <2020-02-04 Tue 18:30>
-  :END:
-
-*** Reinforcement Learning multiagent system for simulating a survival environment
-
-    (gl) Sistema multiaxente de aprendizaxe por reforzo para simulación de contorna de supervivencia \\
-    (es) Sistema multiagente de aprendizaje por refuerzo para simulación de entorno de supervivencia
-
-**** Estudiante
-     Rubén Montero Vázquez
-
-     + Final year project, [[http://estudos.udc.es/en/study/detail/4502v01][MSc in Computer Science]], UDC\\
-       (TFM [[http://estudos.udc.es/gl/study/detail/4502v01][Mestrado Universitario en Enxeñería Informática]], UDC)
-
-**** Supervisión
-     [[https://es.linkedin.com/in/luis-omar-alvarez-mures-4a133a59][Luis Omar Álvarez Mures]] (Cinfo, UDC)\\
-     [[http://pdi.udc.es/en/File/Pdi/M459E][Francisco Javier Taibo Pena]] (UDC)\\
-     Emilio José Padrón González (UDC)
-
-**** Descripción
-
-Implementación de sistema multiagente para simulación de un entorno de
-lucha por la supervivencia.
-
-El entorno a implementar será un /Gym/ (https://gym.openai.com) que
-consistirá en un entorno 2D con soporte para diferentes tipos de
-terrenos y múltiples agentes actuando a la vez. Cada agente podrá
-desplazarse por el entorno, encontrando diferentes dificultades
-dependiendo del tipo de terreno, y pudiendo interactuar con diversos
-objetos (en principio se plantean un puente móvil y un puente levadizo
-activable) que ofrezcan posibilidades para cumplir su tarea.
-
-La tarea de los agentes es sobrevivir. Un equipo tiene que huir del
-otro para cumplir su misión, y el otro tiene que capturarlos. Este
-escenario es similar al planteado por OpenAI en su proyecto sobre
-sistemas multiagente (https://openai.com/blog/emergent-tool-use).
-
-La idea principal es que el /layout/ del /Gym/ sea fácilmente configurable
-(distribución de los terrenos, objetos), de tal forma que finalmente
-tengamos una aplicación que permita configurar diferentes escenarios y
-probar el desarrollo de los agentes entrenados en los mismos.
-
-También forma parte fundamental del proyecto la implementación de
-agentes para probar el escenario, estudiando, investigando y
-comparando las técnicas más recientes de aprendizaje por refuerzo:
-- /Q-Learning/
-- /Deep Q-Learning/
-- /Policy Gradients/
-- De ser posible, otras opciones más punteras como: /Advantage Actor
-  Critic/ (A2C), /Proximal Policy Gradients/ (PPO), /Random Network
-  Distillation/ (RDN)
-
-Finalmente, se integrarán los resultados con un motor de /render/ que
-permita visualizar las simulaciones de los agentes.
-
-**** Motivación
-
-/Aprendizaje por refuerzo/ es un campo que está en auge
-recientemente. Existen numerosos /papers/ publicados recientemente al
-respecto, y se están comenzando a estandarizar metodologías,
-herramientas y procesos.
-
-Este trabajo está motivado por las prometedoras mejoras en relación
-inteligencia artificial que se atisban en el horizonte. Idealmente, se
-pretenden replicar los resultados de OpenAI que han publicado en su
-paper sobre /Emergent-Tool Use From Agent Interaction/
-(https://arxiv.org/abs/1909.07528) y contrastar con diversas
-implementaciones de agentes de aprendizaje por refuerzo que están a la
-orden del día.
-
-**** Objetivos concretos
-
-     - Análisis e implementación de diversas técnicas de aprendizaje
-       por refuerzo para enfrentarlas a un caso práctico (véase
-       Descripción).
-     - Estudio de sus ventajas e inconvenientes, así como su idoneidad
-       para el problema en concreto.
-     - Reproducción de los resultados de OpenAI sobre uso de
-       herramientas por parte de agentes de aprendizaje por refuerzo
-       (RL) en un entorno competitivo multi-agente.Comparativa de los
-       resultados obtenidos.
-     - Estudio de la viabilidad, interoperabilidad y adecuación de
-       diferentes motores de /render/ a este problema.
-     - Creación de una aplicación que permita fácilmente observar
-       simulaciones de aprendizaje artificial, permitiendo configurar
-       el entorno del mismo y mostrando gráficas de métricas
-       relevantes del proceso.
-     - Desarrollo de una aplicación de entornos de supervivencia que
-       aplica algoritmos de aprendizaje por refuerzo.
-     - Poner a prueba la capacidad de la aplicación y extraer
-       conclusiones significativas del proyecto.
-
-**** Fases principales del trabajo
-
-     - Análisis inicial sobre diferentes tipos de agente de
-       aprendizaje por refuerzo, pros, contras y viabilidad
-     - Diseño e implementación de un /Gym/ en Python
-     - Implementación de los diversos agentes mencionados
-       anteriormente
-     - Mejoras iterativas sobre ambos componentes
-       + Comparación de los resultados del aprendizaje contra los
-         resultados esperados
-       + Investigación de las peculiaridades de los procesos de
-         aprendizaje de los diferentes agentes
-       + Estudio de las diferentes características del /Gym/ y de su
-         interacción con los agentes
-       + Estudio de alternativas ante problemas hallados
-     - Implementación de una aplicación que integre los componentes y
-       permita configurar el /layout/ del escenario y entrenar
-       automáticamente a los agentes, permitiendo visualizar y
-       explorar los resultados
-     - Integración del sistema anterior con un motor de /render/
-     - Pruebas finales y conclusiones
-
-**** Herramientas y medios a utilizar
-
-     Las herramientas a utilizar serán Python como lenguage de
-     programación, y los módulos asociados de OpenAI para crear
-     /Gyms/. Para la implementación de ciertos agentes será necesario
-     emplear TensorFlow.
-
-     Como motores de /render/ para la parte final se plantean Blender o
-     Godot, por ser software libre, aunque no se descartan otras
-     alternativas.
-
-     Para el entrenamiento de los agentes, no se descarta el uso de un
-     servicio de Cloud Computing en caso de encontrarlo necesario.
-
-**** Justificación de la naturaleza profesional (aplicabilidad, calidad técnica, adecuación de contenidos, dirección y control)
-***** Aplicabilidad
-
-      Desarrollo de una aplicación de entornos de supervivencia que
-      aplica algoritmos de aprendizaje por refuerzo.
-
-      Este TFM tendrá aplicación como software de aprendizaje sobre
-      aprendizaje por refuerzo en el campo de estudios superiores.
-
-      También se espera que tenga un impacto significativo a nivel de
-      investigación. Y por último, no se descarta su viabilidad como
-      producto de entretenimiento, aunque ello dependerá enteramente
-      de la usabilidad del producto final, ya que el desarrollo no va
-      a estar orientado a este propósito.
-
-***** Calidad técnica
-
-      Este proyecto se llevará a cabo ciñéndonos a los estándares más
-      recientes sobre entornos de aprendizaje por refuerzo, empleando
-      modularidad y adaptando todo lo creado con el objetivo de que
-      sirva de utilidad a la comunidad. Se empleará Git como control
-      de versiones desde el instante inicial y se fijarán sesiones de
-      seguimiento para controlar el avance del proyecto y orientarlo
-      correctamente.
-
-      Se empleará una metodología de ciclo de vida incremental que
-      cobrará especial importancia en la fase más intensa del
-      proyecto, el diseño y desarrollo iterativos de los agentes y el
-      /Gym/.
-
-***** Adecuación de contenidos
-
-      Particularmente, este TFM tiene estrecha relación con la
-      asignatura de Interacción, gráficos y multimedia, ya que buena
-      parte del esfuerzo estará orientado a la implantación del
-      producto en una interfaz visual, aunque, evidentemente también
-      se relaciona con Diseño de Sistemas de Información y con la
-      aplicación adecuada de patrones de diseño y buenas prácticas al
-      proyecto en general.
-
-      Por otra parte, se plantea la posibilidad de integrar los
-      resultados en una aplicación móvil (Arquitecturas y plataformas
-      móviles) de ser viable y permitirlo el alcance.
-
-      Informática como servicio también tiene una vinculación con este
-      proyecto, por plantearnos usar computación en la nube para
-      entrenar a los agentes. Además, otras competencias y
-      conocimientos adquiridos en diferentes asignaturas también serán
-      cruciales para el desarrollo del proyecto.
-
-***** Dirección y control
-
-      El proyecto es viable técnica y económicamente y se llevará a
-      cabo de acuerdo con los puntos expuestos anteriormente. Los puntos
-      más críticos en su puesta en marcha son:
-      - Capacidad de adecuación del entorno a las arquitecturas de los
-        agentes (que deciden la política de actuación) y el desempeño
-        de estos mismos, siendo necesario alcanzar resultados buscados
-        para poder finalizar el trabajo.
-      - Calidad de el motor de /render/ a usar y capacidad para ser
-        integrado con todo el trabajo previo.
 
 ** Work in Progress: 201809                      :Billing:Invoicing:Java__EE:
   :PROPERTIES:
