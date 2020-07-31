@@ -9,17 +9,17 @@
   :export_file_name: teaching
   :END:
 
-** 2019-2020 Academic year
+** 2020-2021 Academic year
 
 **** Link: [[https://matricula.udc.es/System/CambiaIdioma.asp?lIdLang=9&strUrlBack=%2E%2E%2FPODAberto%2Fprofesor%2Easp%3FNum%5FOrganizacion%5FPuesto%3D2581][Official *POD*: My file at UDC]]
 
 *** Degree: Bachelor of Computer Science / Grao en Enxeñería Informática
 **** Link: [[http://estudos.udc.es/gl/study/start/614G01V01][degree's official site]]
 **** Courses:
+ + /Computer Science Preliminaries / Informática Básica (IB)/ \\
+   -> [[https://estudos.udc.es/en/subject/614G01V01/614G01002][File & teaching guide]]
  + /Fundamentals of Computers / Fundamentos dos Computadores (FC)/ \\
    ->[[http://estudos.udc.es/en/subject/614G01V01/614G01007][ File & teaching guide]]
- + /Computer Structure / Estrutura de Computadores (EC)/ \\
-   -> [[http://estudos.udc.es/gl/subject/614G01V01/614G01012/2018][File & teaching guide]]
 
 *** Degree: Master of Computer Science / Mestrado en Enxeñería Informática (MUEI)
 **** Link: [[http://estudos.udc.es/gl/study/start/4502V01][degree's official site]]
@@ -31,7 +31,7 @@
 **** Link: [[http://estudos.udc.es/en/study/start/4473V02][degree's official site]]
 **** Course:
   + /HPC Tools / Ferramentas HPC/ \\
-    -> [[http://estudos.udc.es/en/subject/4473V02/4473105/2018][File]] -> [[https://guiadocente.udc.es/guia_docent/index.php?centre=614&ensenyament=614473&assignatura=614473105&any_academic=2018_19&idioma_assig=eng][Teaching guide]]
+    -> [[http://estudos.udc.es/en/subject/4473V02/4473105][File]] -> [[https://guiadocente.udc.es/guia_docent/index.php?centre=614&ensenyament=614473&assignatura=614473105&any_academic=2018_19&idioma_assig=eng][Teaching guide]]
 
 *** Degree: Master in Design, Development and Marketing of Videogames / Mestrado en Deseño, Desenvolvemento e Comercialización de Videoxogos
 **** Links: [[http://estudos.udc.es/en/study/detail/4529v01][degree's official site (udc)]] [[http://mastervideojuegos.udc.gal][degree's website]]
