@@ -90,15 +90,17 @@ Hi there! And welcome to my website!
 
 My name is Emilio José Padrón González (Ourense, 1975) and I am
 teaching and researching at Universidade da Coruña (UDC) as a member
-of the Computer Architecture Group (GAC) and the research center CITIC.
-My main topics of interest are in the fields of High Performance
-Computing (HPC) and Computer Graphics.
+of the Computer Architecture Group (GAC) and the research center
+CITIC. My main topics of interest are in the fields of High
+Performance Computing (HPC), Computer Graphics, Data Analytics and
+Artificial Intelligence.
 
 At present, I'm mainly focus on these two research lines:
 
 - High performance data analytics (HPDA and Big Data), applied to
   scientific data from numerical simulations to get an online
-  analysis of these data (in-situ and/or in-transit).
+  analysis of these data (in-situ and/or in-transit) at scale.
 
-- IA applied to computer graphics (mainly, point-based rendering) and
-  multimedia.
+- The triangle Computer Graphics - Computer Vision - Artificial
+  Intelligence: particularly, IA (ML/DL/DRL) applied to computer
+  graphics, computer vision and multimedia.

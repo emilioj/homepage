@@ -52,9 +52,17 @@
   Histórico de Traballos Fin de Grao e de Mestrado dirixidos /(gl)/
 
 *** 2020
+
+**** GPU-based mapping of multispectral images on huge 3D point clouds :MHPC:
+*Mapeo de imaxes multiespectrais sobre nubes de puntos 3D de alta densidad en GPU* /(gl)/ \\
+*Mapeo de imágenes multiespectrales sobre nubes de puntos 3D de alta densidad en GPU* /(es)/ \\
+by /Juan Manuel Jurado Rodríguez/ \\
+co-advised with /Francisco Ramón Feito Higueruela/ (Universidad de Jaén)\\
+-> [[file:files/JuradoRodriguez_JuanManuel_TFM_2020.pdf][pdf (es)]]  -> [[file:files/JuradoRodriguez_JuanManuel_TFM_2020_slides.pdf][slides (es)]]
+
 **** Reinforcement Learning multiagent system for simulating a survival environment :MUEI:
 *Sistema multiaxente de aprendizaxe por reforzo para simulación de contorna de supervivencia* /(gl)/ \\
-*Sistema multiagente de aprendizaje por refuerzo para simulación de entorno de supervivencia* /(en)/ \\
+*Sistema multiagente de aprendizaje por refuerzo para simulación de entorno de supervivencia* /(es)/ \\
 by /Rubén Montero Vázquez/ \\
 co-advised with /Luis Omar Álvarez Mures/ (Cinfo, UDC) and /Francisco Javier Taibo Pena/ (UDC)\\
 -> [[file:files/MonteroVazquez_Ruben_TFM_2020.pdf][pdf (en)]]\\
@@ -247,85 +255,8 @@ co-advised with /Margarita Amor López/ (UDC, Dpt. Enxeñería de Computadores)\
 *Computación paralela en un entorno heterogéneo CPUs-GPUs* /(es)/ \\
 co-advised with /Bruno Raffin/ (Inria Rhône-Alpes, Datamove team)\\
 -> http://kmelot.biblioteca.udc.es/record=b1460801~S1*gag
-** Work in Progress: 202004
-  :PROPERTIES:
-  :export_hugo_section: project
-  :export_hugo_weight: 30
-  :export_file_name: 2020april_2
-  :export_hugo_custom_front_matter+: :summary "GPU-based mapping of multispectral images on huge 3D point clouds."
-  :export_date: <2020-04-02 Thu 12:30>
-  :END:
 
-*** GPU-based mapping of multispectral images on huge 3D point clouds
-
-    (gl) Mapeo de imaxes multiespectrais sobre nubes de puntos 3D de alta densidad en GPU \\
-    (es) Mapeo de imágenes multiespectrales sobre nubes de puntos 3D de alta densidad en GPU
-
-**** Estudiante
-     [[https://www.ujaen.es/departamentos/dinformatica/contactos/jurado-rodriguez-juan-manuel][Juan Manuel Jurado Rodríguez]]
-
-     + Final year project, [[http://estudos.udc.es/en/study/detail/4502v01][MSc in High Performance Computing]], UDC\\
-       (TFM [[http://estudos.udc.es/gl/study/detail/4502v01][Mestrado en Computación de Altas Prestacións (HPC)]], UDC)
-
-**** Supervisión
-     [[https://www.ujaen.es/departamentos/dinformatica/contactos/feito-higueruela-francisco-ramon][Francisco Ramón Feito Higueruela]] (Universidad de Jaén)\\
-     Emilio José Padrón González (UDC)
-
-**** Descripción
-
-     En este trabajo se aborda el estudio, desarrollo y evaluación en
-     GPU de un algoritmo secuencial [1] basado en el mapeo de imágenes
-     multiespectrales sobre extensas nubes de puntos. Se abordan
-     problemas computacionalmente costosos tales como el manejo de
-     nubes de puntos de alta resolución espacial (cientos de millones
-     de puntos), la detección de oclusión, entre otros. Desde la
-     perspectiva del HPC, se pretende detectar los principales cuellos
-     de botella del código y aprovechar la potencia de cálculo en la
-     GPU para acelerar el conjunto de cálculos realizados.
-
-[1] Jurado, J. M., Ortega, L., Cubillas, J. J., & Feito,
-F. R. (2020). Multispectral Mapping on 3D Models and Multi-Temporal
-Monitoring for Individual Characterization of Olive Trees. Remote
-Sensing, 12(7), 1106.
-
-**** Objetivos concretos
-
-     Los principales objetivos de este proyecto son:
-
-     1. la revisión y evaluación de los principales problemas que
-        plantea el algoritmo de estudio
-     2. la aceleración del conjunto de cálculos referentes a la
-        oclusión y mapeo 3D utilizando una o varias GPUs en un
-        cluster.
-
-**** Método de trabajo:
-
-     - Se producirán una o varias reuniones semanales entre el alumno
-       y su tutor profesional para monitorizar su progreso y decidir
-       los siguientes pasos a seguir.
-
-     - Se generará un informe quincenal sobre el trabajo realizado que
-       además será compartido con el tutor académico.
-
-     - Se generará un informe final que resumirá las actividades
-       realizadas por el alumno, que también será compartido con el
-       tutor académico.
-
-**** Fases principales del trabajo
-
-     1. Revisión bibliográfica.
-     2. Profiling y estudio previo del algoritmo secuencial.
-     3. Diseño y desarrollo del algoritmo acelerado por GPU.
-     4. Diseño y desarrollo de la versión multi-GPU del algoritmo en
-        paralelo.
-     5. Análisis del rendimiento.
-
-**** Herramientas y medios a utilizar
-
-     Acceso a un /cluster/ que contenga varias tarjetas gráficas para
-     cómputo en el mismo nodo.
-
-** Work in Progress: 201809                      :Billing:Invoicing:Java__EE:
+** DRAFT Work in Progress: 201809                :Billing:Invoicing:Java__EE:
   :PROPERTIES:
   :export_hugo_section: project
   :export_hugo_weight: 30
@@ -425,7 +356,7 @@ Sensing, 12(7), 1106.
   - Elementos necesarios para el desarrollo de web services:
     frameworks, contenedor web, etc.
 
-** Work in Progress: 20200319 :Data__Analytics:High__Performance__Data__Analytics:Numerical__Simulation:Scientific__Data:Flink:
+** DRAFT Work in Progress: 20200319 :Data__Analytics:High__Performance__Data__Analytics:Numerical__Simulation:Scientific__Data:Flink:
   :PROPERTIES:
   :export_hugo_section: project
   :export_hugo_weight: 30
@@ -548,13 +479,145 @@ Sensing, 12(7), 1106.
 
   - Access to HPC resources will be provided to the student.
 
-** Work in Progress: 20200626 :Computer__Graphics:Point_based__Rendering:Interactive__Rendering:Deep__Learning:AI:GPU:
+** 21/02: Work in Progress #HPDA #Python #RAY :In__Situ:In__Transit:Data__Analytics:High__Performance__Data__Analytics:Numerical__Simulation:Scientific__Data:Python:Ray:
   :PROPERTIES:
   :export_hugo_section: project
   :export_hugo_weight: 30
-  :export_file_name: 2020jun_1
+  :export_file_name: 2021feb
+  :export_hugo_custom_front_matter+: :summary "Online Data Analytics for Scientic Numerical Simulations with Python & Ray."
+  :export_date: <2021-02-24 Wed 00:10>
+  :END:
+
+*** Online Data Analytics for Scientic Numerical Simulations with Python and Ray
+
+    (gl) Análise de datos en liña para simulacións científicas con Python e Ray \\
+    (es) Análisis de datos en línea para simulaciones científicas con Python y Ray
+
+**** Student
+     Iago Fernández Picos
+
+     + Final year project, [[http://estudos.udc.es/en/study/detail/614g01v01][BSc in Computer Science]], UDC\\
+       (TFG [[http://estudos.udc.es/gl/study/detail/614g01v01][Grao en Enxeñería Informática]], UDC)
+**** Supervision
+     [[https://team.inria.fr/datamove/team-members/bruno-raffin][Bruno Raffin]] (Inria Rhône-Alpes, Univ. Grenoble Alpes)\\
+     Emilio José Padrón González (UDC)
+
+**** Brief description
+
+  Large-scale simulations are producing an ever-growing amount of data
+  that is becoming prohibitively costly, in terms of time and energy,
+  to save to disks, and next to retrieve and process during the
+  post-hoc data analysis phase. To circumvent this bottleneck, in-situ
+  analytics [1] proposes to start processing data online, as soon as
+  made available by the simulation in the memories of the compute
+  nodes (or using other nodes in the same cluster, known as in-transit
+  analysis). The benefits are:
+  + Alleviate I/O pressure: Raw data produced by the simulation can
+    start to be reduced before moving out of the compute nodes, saving
+    on data movements and on the amount of data to store to disk.
+  + High performance data analysis at scale: Part of data analysis can
+    be performed on the same supercomputer as the one booked for the
+    simulation. The process can be massively parallelized, reading
+    data from memory and not from disk, reducing the time for
+    performing these tasks.
+
+  This integration of data analytics with large-scale simulations
+  represents a new kind of workflow. Scientists need to rethink the
+  way to use the available data movement and storage budgets and the
+  way to take advantage of the compute resources for advanced data
+  processing. So far, only a few framework prototypes have been
+  developed to investigate some key concepts, with experiments with
+  simple analysis scenarios.
+
+  The goal of this project proposal is to investigate and develop
+  algorithms to enable advanced in-situ/in-transit processing of
+  scientific data from numerical simulations with the Python framework
+  Ray. The Python language has become one of the most popular
+  programming languages in the scientific computing community, mainly
+  because of the benefits it offers for fast code development.
+  Python's strength in general purpose programming, combined with a
+  great ecosystem and library support, makes it an excellent choice
+  for data analysis tasks and building data-centric applications.
+
+  Although the performance of pure Python code is often far from being
+  optimal, there are multiple ways to optimise and parallelise Python
+  programs, particularly in the context of scientific and high
+  performance computing. Particularly, frameworks such as Dask [2] and
+  Ray [3] are focused on developing large scale distributed
+  applications. This kind of frameworks can be a good fit for
+  a stream processing approach for analysing in-situ/in-transit
+  results from parallel numerical simulations, analogous to [4], an
+  analytics stack based on big data technologies (Apache Flink,
+  HBase...), but with a less restrictive programming model than
+  map/reduce-like paradigms.
+
+  #+CAPTION: Overview of the proposed system
+  [[file:../../files/proj21feb_overview.svg]]
+
+  Even though Dask is getting quite a lot of attention in the HPC
+  world, whereas Ray is probably more popular in the machine learning
+  community, we think Ray could maybe have more potential, so Ray is
+  the platform we will use in this work for the distributed python
+  execution.
+
+[1] Lessons Learned from Building In Situ Coupling Frameworks.\\
+    Matthieu Dorier, Matthieu Dreher, Tom Peterka, Gabriel Antoniu, Bruno Raffin, Justin M. Wozniak.\\
+    ISAV 2015 – First Workshop on In Situ Infrastructures for Enabling Extreme-Scale Analysis and Visualization (held in conjunction with SC15),
+    Nov 2015, Austin, United States.\\
+    https://hal.inria.fr/hal-01224846\\
+[2] DASK: Dask natively scales Python\\
+    https://dask.org\\
+[3] RAY: Fast and Simple Distributed Computing\\
+    https://ray.io\\
+[4] In-Transit Molecular Dynamics Analysis with Apache Flink.\\
+    Henrique C. Zanuz, Bruno Raffin, Omar A. Mures, Emilio J. Padrón.\\
+    ISAV 2018 – Fourth Workshop on In Situ Infrastructures for Enabling Extreme-Scale Analysis and Visualization (held in conjunction with SC18),
+    Nov 2018, Dallas, United States.\\
+    https://hal.inria.fr/hal-01889939
+
+**** Specific objectives
+
+  - The main objective of this project is to develop an analytics
+    pipeline based on Ray for the online processing of scientic data
+    from large-scale numerical simulations.
+
+  - The proposed analytics pipeline will be able to be deployed at
+    scale in the same HPC environment the numerical simulations is
+    running on.
+
+  - Different analysis kernels will be implemented to test the proposal.
+
+**** Methodology
+
+  An Agile development method will guide the project, with relatively short
+  sprints to build the different analysis kernels, after a preliminary work
+  of study and documentation.
+
+**** Development steps
+
+  - Analysis of requirements and project scheduling, according to student
+    disponibility.
+
+  - Study and documentation.
+    + Ray basics and deployment of distributied Python applications with Ray
+    + Communicating Ray with an external application
+
+  - Incremental, iterative work sequences (sprints) to develop the
+    analytics pipeline, and some analysis kernels, and integrate it
+    with a numerical simulation.
+
+**** Material
+
+  - Personal computer with internet access.
+
+  - Access to HPC resources will be provided to the student.
+** 20/06: Work in Progress #Rendering #Points #AI #DL :Computer__Graphics:Point_based__Rendering:Interactive__Rendering:Deep__Learning:AI:GPU:
+  :PROPERTIES:
+  :export_hugo_section: project
+  :export_hugo_weight: 30
+  :export_file_name: 2020jun
   :export_hugo_custom_front_matter+: :summary "Deep Learning Approach for Point-based Rendering."
-  :export_date: <2019-02-18 Mon 14:00>
+  :export_date: <2020-06-15 Mon 14:00>
   :END:
 
 *** Deep Learning Approach for Point-based Rendering
@@ -667,7 +730,7 @@ Sensing, 12(7), 1106.
 
      Un ordenador persoal con GPU e acceso a internet.
 
-** Work in Progress: 20200318 :Computer__Graphics:Game__Engine:Deep__Learning:Reinforcement__Learning:AI:
+** DRAFT Work in Progress: 20200318 :Computer__Graphics:Game__Engine:Deep__Learning:Reinforcement__Learning:AI:
   :PROPERTIES:
   :export_hugo_section: project
   :export_hugo_weight: 30
@@ -801,11 +864,11 @@ Sensing, 12(7), 1106.
 
   - Personal computer with GPU and internet access.
 
-** Work in Progress: 20200317            :Multimedia:Video:Deep__Learning:AI:
+** 20/03: Work in Progress #Video #AI #DL :Multimedia:Video:Deep__Learning:AI:
   :PROPERTIES:
   :export_hugo_section: project
   :export_hugo_weight: 30
-  :export_file_name: 2019feb_3
+  :export_file_name: 2020Mar
   :export_hugo_custom_front_matter+: :summary "Deep Learning chroma keyer implementation."
   :export_date: <2020-03-23 Mon 10:30>
   :END:
@@ -921,3 +984,241 @@ Sensing, 12(7), 1106.
 **** Material
 
   - Personal computer with GPU and internet access.
+** 20/11: Work in Progress #Video #Denoising #SuperResolution #AI #DL :Multimedia:Video:Denoising:Super:resolution:Deep__Learning:AI:
+  :PROPERTIES:
+  :export_hugo_section: project
+  :export_hugo_weight: 30
+  :export_file_name: 2020nov
+  :export_hugo_custom_front_matter+: :summary "Sports video super-resolution and denoising using Deep Learning."
+  :export_date: <2020-11-12 Thu 16:30>
+  :END:
+
+*** Sports video super-resolution and denoising using Deep Learning
+
+    (gl) Super-resolución e eliminación de ruído en vídeos deportivos empregando Deep Learning \\
+    (es) Super-resolución y eliminación de ruido en vídeos deportivos usando Deep Learning
+
+**** Student
+     Oliver José García Sieiro
+
+     + Final year project, [[http://estudos.udc.es/en/study/detail/614g01v01][BSc in Computer Science]], UDC\\
+       (TFG [[http://estudos.udc.es/gl/study/detail/614g01v01][Grao en Enxeñería Informática]], UDC)
+**** Supervision
+     [[https://es.linkedin.com/in/luis-omar-alvarez-mures-4a133a59][Luis Omar Álvarez Mures]] (Cinfo, UDC)\\
+     [[http://pdi.udc.es/en/File/Pdi/M459E][Francisco Javier Taibo Pena]] (UDC)\\
+     David Maseda Neira (Cinfo)\\
+     Emilio José Padrón González (UDC)
+
+**** Brief description
+
+     Super-resolution imaging is the process of enhancing the detail
+     of an image. A low resolution image (LR) is taken as input and it
+     will be upscaled to a higher resolution output (HR).  Usually,
+     the input image has a “lower resolution” due to a smaller spatial
+     resolution (i.e. size), due to a result of degradation (such as
+     blurring) or both. We can relate the HR and LR images through the
+     following equation:
+
+     LR = degradation(HR)
+
+     Clearly, on applying a degradation function, we obtain the LR
+     image from the HR image. But, can we do the inverse? Of course,
+     we usually do not know the degradation function
+     beforehand. Directly estimating the inverse degradation function
+     is an ill-posed problem. In spite of this, Deep Learning (DL)
+     techniques have proven to be effective for super-resolution, with
+     promising results in current research.
+
+     Most DL based super-resolution models are trained using
+     Generative Adversarial Networks (GANs). A generative adversarial
+     network (GAN) is a class of machine learning model designed by
+     Ian Goodfellow and his colleagues in 2014 [1]. Two neural
+     networks contest with each other in a game (in the form of a
+     zero-sum game, where one agent's gain is another agent's loss).
+
+     Given a training set, this technique learns to generate new data
+     with the same statistics as the training set. For example, a GAN
+     trained on photographs can generate new photographs that look at
+     least superficially authentic to human observers, having many
+     realistic characteristics. Though originally proposed as a form
+     of generative model for unsupervised learning, GANs have also
+     proven useful for semi-supervised learning, fully supervised
+     learning, and reinforcement learning.
+
+     In this project we will analyze the current state of the art in
+     DL super-resolution and will experiment with some of the bleeding
+     edge techniques, training a model for our custom dataset and,
+     finally, extending that model to perform denoising as well
+     (i.e. noise reduction/removal). This will allow further testing
+     in a video streaming context, which requires low bandwidth video
+     transmission.
+
+     [1] Goodfellow, Ian; Pouget-Abadie, Jean; Mirza, Mehdi; Xu, Bing;
+     Warde-Farley, David; Ozair, Sherjil; Courville, Aaron; Bengio,
+     Yoshua (2014). Generative Adversarial Networks.
+
+**** Specific objectives
+
+   - Research deep learning super-resolution techniques
+
+   - Develop a deep learning model to achieve super-resolution +
+     denoising of an input video stream.
+
+   - The specific application domain(s) will be broadcasting,
+     surveillance, etc.
+
+**** Methodology
+
+  An Agile development method will guide the project, with relatively
+  short sprints to build the different tasks, after a preliminary work
+  of study and documentation.
+
+**** Development steps
+
+  - Analysis of requirements and project scheduling, according to student
+    disponibility.
+
+  - Study and documentation.
+    + GANs.
+    + TecoGAN, DRLN...
+    + TensorFlow, Pytorch.
+
+  - Incremental, iterative work sequences (sprints) to develop and
+    train the chosen model.
+
+  - Incremental, iterative work sequences (sprints) to test the video
+    streaming use case.
+
+**** Material
+
+  - Personal computer with GPU and internet access.
+** 21/02: Work in Progress #Agriculture #AI #RL
+  :PROPERTIES:
+  :export_hugo_section: project
+  :export_hugo_weight: 30
+  :export_file_name: 2021feb2
+  :export_hugo_custom_front_matter+: :summary "Crop Models for Reinforcement Learning."
+  :export_date: <2021-02-24 Wed 12:30>
+  :END:
+
+*** Crop Models for Reinforcement Learning
+
+    (gl) Modelos de cultivo para aprendizaxe automática por reforzo \\
+    (es) Modelos de cultivo para aprendizaje automático por refuerzo
+
+**** Student
+     Sebastian Micael Barbeito García
+
+     + Final year project, [[http://estudos.udc.es/en/study/detail/614g01v01][BSc in Computer Science]], UDC\\
+       (TFG [[http://estudos.udc.es/gl/study/detail/614g01v01][Grao en Enxeñería Informática]], UDC)
+**** Supervision
+     [[https://romaingautron.fr][Romain Gautron]] (PhD student, SequeL Team, INRIA Lille)\\
+     [[https://team.inria.fr/datamove/team-members/bruno-raffin][Bruno Raffin]] (DataMove Team, Inria Rhône-Alpes, Univ. Grenoble Alpes)\\
+     Emilio José Padrón González (UDC)
+
+**** Brief description
+
+     Reinforcement Learning (RL) is a branch of Machine Learning
+     dealing with sequential decision-making under uncertainty. In an
+     RL problem, an agent has to learn to maximize a score depending
+     on the sequences of actions he performed. RL learning algorithms
+     are based on trial-and-error. An agent observes some measures
+     from an environment, makes a decision based on those measures and
+     observes the consequences of decision-making. Effect of actions
+     are mostly umpredictable, thus there is uncertainty in
+     decision-making. Depending on how good are the consequences, the
+     agent will later adjust its behaviour to make better future
+     decisions. [1, 2]
+
+     Crop-management is the series of cultural operations performed
+     into a field to grow a given crop with given characteristics,
+     such as yield and quality criterion. Crop-management is such an
+     example where sequential decision making leads to uncertain
+     results. An agent learning to perform crop management would make
+     a series of crop management operations (e.g. sowing,
+     fertilization, irrigation) with uncertain consequences (depending
+     for instance on weather and pest events) and observes at the end
+     a score that can be for instance crop yield. RL is based on trial
+     and error and thus requires many failures. The use of RL to
+     support crop-management is of great interest to support highly
+     uncertainty crop-management decisions, such as planting date
+     choice, especially in Sub-Saharan Africa for smallholder
+     farmers. Nevertheless, crop cycle length and experimental cost
+     are high, thus limiting the number of training examples.
+
+     Process-based crop models (PBM) are crop growth simulators based
+     on causal models from plant physiology and plant science,
+     allowing robust simulations. The idea is to use crop growth
+     simulators to pre-train and evaluate RL agents learning
+     crop-management. RL requires interactive communication with
+     process-based crop models: reading field’s parameters, making a
+     decision and getting next field’s parameters for each time step
+     of the simulation. Crop models are not directly usable in this
+     configuration: we need to “pause” the simulator to read variables
+     in memory and send data on the fly (e.g. fertilization,
+     irrigation).
+
+     We will use a Fortran crop model called DSSAT [3]. DSSAT code is
+     sequential. In order to have a widespread, formalized and easy to
+     manipulate RL environment, we will use the OpenAI Gym framework
+     [4], which is Python based. To deploy large-scale distributed RL
+     simulations we will use Rllib [5], an RL library included in Ray,
+     a python framework for building distributed applications.
+
+     References:
+
+     [1] Lapan, M. (2018). Deep Reinforcement Learning Hands-On: Apply
+     modern RL methods, with deep Q-networks, value iteration, policy
+     gradients, TRPO, AlphaGo Zero and more. Packt Publishing Ltd.
+
+     [2] Sutton, R. S., Barto, A. G., et al. (1998). Introduction to
+     reinforcement learning, volume 135. MIT press Cambridge.
+
+     [3] Hoogenboom, G., Porter, C., Boote, K., Shelia, V., Wilkens,
+     P., Singh, U., White, J., Asseng, S., Lizaso, J., Moreno, L., et
+     al. (2019). The dssat crop modeling ecosystem. Advances in crop
+     modelling for a sustainable agriculture, pages 173–216.
+
+     [4] OpenAI’s Gym: https://gym.openai.com
+
+     [5] Ray and Rllib: https://ray.io
+
+**** Specific objectives
+
+     - Develop an interaction layer between DSSAT, a sequential
+       Fortran software running a numerical simulation, and a RL
+       simulation in Python.
+
+     - Basically, the interaction can be depicted as
+       + “pausing” the numerical simulation
+       + interchanging some data with the RL simulation
+       + resuming the numerical simulation
+
+     - Leverage Hight Performance Computing (HPC) by running
+       large-scale distributed RL simulations
+
+     - Get a final solution as easy to install and automated as
+       possible
+
+**** Methodology
+
+     An Agile development method based on the incremental build model
+     will guide the project, with relatively short sprints to build
+     the different tasks, after a preliminary work of study and
+     documentation.
+
+**** Development steps
+
+     1. Analysis of requirements and project scheduling, according to student disponibility.
+
+     2. Study and documentation.
+        - DSSAT
+        - Reinforcement learning, OpenAI’ s Gym and Ray+RLlib
+
+     3. Incremental, iterative work sequences (sprints) to design, develop and test a functional prototype of the final product.
+
+     4. Documentation
+
+**** Material
+
+     A Personal computer and internet access.
